@@ -9,12 +9,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[8pt]{scrartcl} % 8pt font size
+\documentclass[fontsize=8pt]{scrartcl} % 8pt font size
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{multicol} % Required for multicolumn layout
 \usepackage{color} % Required for color customization
+\usepackage{arev}
+\usepackage{graphicx}
 
 \usepackage[margin=25pt, landscape]{geometry} % Page margins and orientation
 
@@ -31,13 +33,13 @@ pdfsubject={CCaN Notes},
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-
 \newtheorem*{definition}{Definition}
 \newtheorem*{theorem}{Theorem}
 \newtheorem*{corollary}{Corollary}
 
 \begin{multicols*}{4}
 	% Put your sections here...
+	\input{sections/network_overview.tex}
 	\input{sections/network_layers.tex}
 \end{multicols*}
 

@@ -1,1 +1,76 @@
-abc
+\section{Protocol layers}
+\textbf{Application}: works with messages. Is where applications and their protocols exist. Examples include HTTP, SMTP, FTP, and DNS.\\
+\textbf{Transport}: works with segments. Transports application layer messages between specific applications on different hosts. Examples include TCP and UDP.\\
+\textbf{Network}: works with datagrams. Transports segments from one host to another. Examples include IP and ICMP.\\
+\textbf{Link}: works with frames. Transports datagrams between neighbouring network elements. Examples include Ethernet and WiFi.\\
+\textbf{Physical}: works with bits. The physical medium connecting neighbouring network elements. Examples include copper cable, fibre optics, and radio waves.
+
+\subsection{Application layer}
+An application is identified by a 32 bit \textbf{IP address} and 16-bit \textbf{port number}. The IP address identifies the host, and the port number identifies the application on that host.
+
+\subsubsection{The Web and HTTP}
+\textbf{HTTP} is a stateless protocol which determines how web clients (such as browsers) interact with web servers. HTTP uses TCP, and either establishes one persistent session across many requests, which removes the expensive setup time for each request, or establishes a new session for each request, which prevents the client and server from needing to store information about a session that is not currently in use. When non-persistent sessions are used, each request takes approximately $2\cdot\text{round trip time}+\text{file transmission time}$, while with persistent sessions once a connection is established, each request takes approximately $\text{round trip time}+\text{file transmission time}$.\\
+An \textbf{HTTP request} has this format:\\
+\begin{verbatim}
+GET /somedir/page.html HTTP/1.1
+Host: www.someschool.edu
+Connection: close
+User-agent: Mozilla/5.0
+Accept-language: fr
+\end{verbatim}
+Common request methods are: \textbf{GET} (request an object from the server), \textbf{POST} (send some data and the server should reply with a response object), \textbf{HEAD} (request an object, but the server only responds with the HTTP header, used for debugging), \textbf{PUT} (upload an object), \textbf{DELETE} (delete an object from the server). \textbf{GET} can also send data to the server, by appending queries to the URL, e.g. \verb|somesite.com/search?search=a+search+string|.\\
+An \textbf{HTTP response} has this format:\\
+\begin{verbatim}
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 18 Aug 2015 15:44:04 GMT
+Server: Apache/2.2.3 (CentOS)
+Last-Modified: Tue, 18 Aug 2015 15:11:03 GMT
+Content-Length: 6821
+Content-Type: text/html
+data goes here
+\end{verbatim}
+Common response codes are: \textbf{200 OK} (request succeeded), \textbf{301 Moved Permanently} (requested object has been moved, the client will automatically request the new URL), \textbf{400 Bad Request} (message not understood by server), \textbf{404 Not Found} (requested document not found), \textbf{505 HTTP Version Not Supported} (server does not support the HTTP protocol version used in the request).\\
+Sessions can be tracked using \textbf{cookies} by setting the \textbf{Set-Cookie} header in the response, and the client will send the cookie back in the request. Cookies can be used to store session information, user preferences, and shopping cart contents, or they can be IDs that are used to index a cookie database on the server.\\
+\textbf{HTTP/2} is a new version of HTTP that is binary instead of textual, fully multiplexed, uses one connection for parallelism, uses header compression, and allows servers to push responses proactively into client caches.
+\textbf{Web caches} satisfy HTTP requests on behalf of a server. A browser must be configured to request from a cache, and then if the page is already in the cache it can respond faster than the server could have. Web caches use conditional GETs to check if the page has been updated since the last time it was cached, by setting the \verb|If-Modified-Since| header line.\\
+
+\subsubsection{Email and SMTP}
+Email systems consist of user agents, mail servers, and the simple mail transfer protocol (STMP). When an email is sent, the user agent sends the email to the user's mail server, which then sends the email to the recipient's mail server, which then stores the email until the recipient's user agent requests it. STMP uses TCP with persistent connections, and pushes the email to the recipient's mail server, unlike HTTP which pulls objects from a server. An email header looks like this:
+\begin{verbatim}
+From: alice@aServer.com
+To: bob@anotherServer.com
+Subject: Hello
+\end{verbatim}
+\textbf{POP3} is a protocol used by the recipient's mail client to retrieve the email from the server. A user logs in with \verb|user <username>| and \verb|pass <password>|, then can list emails with \verb|list|, retrieve an email with \verb|retr|, and delete an email with \verb|dele|. Once the user has finished, all their actions are applied at the same time with \verb|quit|.\\
+\textbf{IMAP} is a protocol used by the recipient's mail client to retrieve the email from the server. It is more powerful than POP3, as it allows the user to create, delete, and rename mailboxes, and allows the user to search for emails.\\
+Today, most email clients are sent using a web browser, so emails are requested from servers using HTTP.
+
+\subsubsection{DNS}
+The \textbf{Domain Name System} is responsible for translating application layer hostnames to network layer IP addresses. It is a distributed database implemented in a hierarchy of DNS servers. When a request is made, the DNS client calls a local DNS server, which then calls a root DNS server, which then calls a top-level domain DNS server, which then calls an authoritative DNS server. The authoritative DNS server then sends the IP address back to the client. The local server will cache the IP address of the response, but will also cache the addresses of the various servers, meaning that the root servers are very rarely contacted. DNS resolution uses both recursive requests (the client asks the server to resolve the request) and iterative requests (the client asks the server to tell it the next server to contact). A hostname may map to many IP addresses, in which case the server responds with them in a random order. As the client usually picks the first one, this acts as a simple load balancing system.\\
+A DNS request has this format:
+\includegraphics[width=\linewidth]{../images/w3n7dnsMessage.png}\\
+And a record has the format \verb|<name, value, type, ttl>|. The \textbf{type} states what the record is, \verb|A| means \verb|name| is a hostname and \verb|value| is the corresponding IP address, \verb|NS| means \verb|name| is a domain and \verb|value| is the server knows the next step in resolving that domain, \verb|CNAME| means \verb|name| is an alias for \verb|value|, \verb|MX| means \verb|name| is a domain and \verb|value| is the mail server for that domain. The \textbf{ttl} is the time the record can be cached for.\\
+
+\subsubsection{P2P and BitTorrent}
+\textbf{Peer-to-peer} applications communicate directly with other peers without requiring a central server. P2P applications are used for file distribution, streaming, and telephony, as they are well suited to sharing large files.\\
+If we have a system with $N$ hosts wishing to download an $F$ bit file, peer[$i$] having an upload rate of $u_i$ and a download rate of $d_i$, along with a server with an upload rate of $u_s$, then for a client server architecture the time for all clients to download the file is bounded by
+$$
+	D_{CS}\ge\max\left\{\frac{NF}{u_s},\frac{F}{d_{\min}}\right\}
+$$
+In a P2P system, each peer who gets a part of the file can distribute it onwards, and the download time is bounded by
+$$
+	D_{P2P}\ge\max\left\{\frac{F}{u_s},\frac{F}{d_{\min}},\frac{NF}{u_s+\sum^N_{i=1}u_i}\right\}
+$$
+$D_{P2P}$ equals that only when the server sends bits one at a time to each client.\\
+\textbf{BitTorrent} is a popular P2P file distribution protocol. A file is broken into chunks, typically 256 KB each, and all peers for a file form a torrent. Each torrent has a tracker, which keeps a list of all active peers. When a new peer (we'll call Alice) joins a torrent, it contacts the tracker, which selects a random subset of peers and sends their IPs to Alice who attempts to open concurrent TCP connections with all the IPs it received. Each successful connection is counted as a "neighbouring peer", and over time some of those peers will leave while others join and establish connections, leading to Alice's neighbouring peers fluctuating over time. Every neighbour will have a different subset of chunks of the file, so Alice will periodically request a list of the chunks each of its neighbours has. Alice then determines which chunks are held by fewest of her neighbours and requests them first (rarest-first), this means that each chunk of a file should end up roughly equally distributed.\\
+Alice will also receive requests for chunks for each of her neighbours, and she selects the four that are sending her the highest rate of bits, and reciprocates by sending them their requested chunks - these neighbours are known as **unchoked**. She recalculates the top four every 10 seconds. Every 30 seconds, she also selects one random neighbour (in this case Bob) and sends it chunks - this neighbour is **optimistically unchoked**. If Alice makes it into Bob's top four uploaders and he will reciprocate, and may also make it into Alice's top four. This means that peers will gradually match up with other peers that are capable of uploading at comparable rates, and that a new peer will get chunks that it can trade with its neighbours. All other neighbouring peers receive nothing from Alice, and are **choked**.
+
+\subsection{Transport layer}
+
+\subsubsection{TCP}
+\textbf{Transmission Control Protocol} provides a delivery service that guarantees that a byte stream sent using it will arrive in order with no duplicate packets. It is a \textbf{connection oriented service}, meaning that the client and server exchange transport layer level control information before the application layer messages start to flow.
+
+
+\subsection{Network layer}
+\subsection{Link layer}

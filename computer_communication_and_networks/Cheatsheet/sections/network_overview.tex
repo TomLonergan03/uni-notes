@@ -1,0 +1,33 @@
+\section{Network overview}
+\subsection{Access networks}
+\textbf{Digital subscriber line (DSL)} uses existing telephone lines to transmit data at high frequencies, and voice at low frequencies. These two frequency ranges are separated using a DSL access multiplexer (DSLAM), with the voice frequencies going to the telephone network while the data goes to the internet. \\
+\textbf{Cable} based access uses frequency division multiplexing (FDM) to allow many channels to transmit simultaneously by assigning each a frequency band. It can use TV lines, or dedicated internet lines. Shared wireless access networks connect end systems to routers via an access point or base station.\\
+\textbf{Wireless local area network} (WLAN) typically connect in or around a building (~100ft range) with an up to 10 Gbps transmission rate. A wide area cellular access network is provided by a mobile service provider, with ranges in the 10s of kilometres and lower transmission rates (~100 Mbps for 4G, 1 Gbps for 5G). An enterprise network consists of a mix of wired and wireless access points.
+\subsection{Physical media}
+\textbf{Twisted pair} - a pair of insulated copper wires twisted together, which reduces electromagnetic interference. Cat5 and Cat6 cables use a number of twisted pairs, reaching 100 Mbps-1 Gbps and 10 Gbps speeds respectively.\\
+\textbf{Coaxial cables} consist of an central copper wire, a layer of insulation, another layer of copper, and an outer sheath. This allows data to be bidirectionally transmitted, one way on each layer. Broadband cables are coax, with multiple frequency channels on each cable and can reach a speed of 100 Mbps per channel.\\
+A \textbf{fibreoptic cable} contains a glass fibre carrying light pulses, with each pulse being a bit. They are extremely high bandwidth, with transmission rates up in the 10-100+ Gbps range, have a low error rate as they are immune to EM interference, but are expensive and inflexible.\\
+\textbf{Wireless radio} - instead of using a cable, radio/microwaves are used to carry signals, which propagate across the environment. This removes the need to physically connect devices to the network, but comes at the cost of variable signal strengths, interference, and obstruction by non-radio-transparent objects. Types include: terrestrial microwave (up to 45 Mbps), wireless LAN (up to 1 Gbps), wide area (up to ~1 Gbps), and satellite (up to 45 Mbps, has either high latency for geosynchronous orbits or higher cost/complexity for low-earth-orbit satellites).
+\subsection{Internet structure} The internet is assembled from a collection of ISPs of different scales:\\
+A small number of large networks: \textbf{Tier-1} commercial ISPs (e.g. BT, Virgin Media, Sprint, AT\&T) which provide national and international coverage, and \textbf{content provider networks (CDNs)} (e.g. Google, Facebook) - private networks for connecting data centres to the internet, bypassing tier-1 and regional ISPs.\\
+A large number of small networks: various lower tier ISPs, which resell access to some tier 1 ISP hardware or using their own regional networks. ISPs connect to each other at \textbf{IXPs (internet exchange points)}
+\subsection{Delays}
+\textbf{Processing delay}\\
+When a packet arrives at a node, the header is examined and used to determine where the packet should be directed - this takes some time and is **processing delay**. Processing delays in modern high-speed routers are usually microseconds or less.\\
+\textbf{Queuing delay}\\
+After a packet is processed, it is added to queue to wait for its transmission link to become available. This is dependent on how many packets have arrived before it that are still waiting to be transmitted, if no packets have arrived recently then it will be close to 0, but if traffic is heavy then there may be a long delay. In practice, queuing delays are between microseconds and milliseconds.\\
+\textbf{Transmission delay}\\
+A link between routers will have a transmission rate in ($R$ bits per second). If a packet is of size $L$ bits, then it will take $L/R$ seconds to transmit one full packet. Transmission delays tend to be between microseconds and milliseconds in practice.\\
+\textbf{Propagation delay}\\
+Once a bit is pushed into a link, it must propagate down it to the next router. This is governed by the propagation speed (the speed that the signal can move within the link's medium, e.g. speed of light (~$3*10^8\text{ m/s}$) in fibre lines or the speed of electricity (~$2*10^8\text{ m/s}$) in copper). Propagation delay can be milliseconds in large networks, or nearly negligible in local ones.\\
+\textbf{Overall delay}\\
+If we let $d_{proc}$, $d_{queue}$, $d_{trans}$, $d_{prop}$ be the processing, queuing, transmission, and propagation delays respectively, then the total nodal delay
+$$d_{nodal}=d_{proc}+d_{queue}+d_{trans}+d_{prop}$$
+\textbf{Queuing delay in more detail}\\
+Queuing delay is the most complex part of nodal delay, as it varies packet by packet. This means that we can't discuss absolute values but instead statistical measures of mean/median delays and their distributions, or in probabilities.
+If we have $R$ = transmission rate, $a$ = packets per second, and $L$ = packet size, then we can calculate the traffic intensity:
+$$
+	\text{Traffic intensity }=\frac{La}{R}
+$$
+If $\frac{La}{R}>1$ then the average rate of bits arriving at the queue exceeds the rate at which they can be transmitted, resulting in the queue increasing forever and the queuing delay approaching infinity.
+In the case $\frac{La}{R}\leq1$ the nature of arriving traffic impacts the queuing delay. E.g. if one packet arrives exactly every $\frac{L}{R}$ seconds then each packet will arrive to an empty queue and the will be no queuing delay. If the packets arrive in periodic bursts, e.g. $N$ packets every $\frac{NL}{R}$ seconds, then the first packet will have no queuing delay, the second an $\frac{L}{R}$ second delay, third a $\frac{2L}{R}$ delay, and so on with the $n$th packet having a $\frac{(n-1)L}{R}$ delay.

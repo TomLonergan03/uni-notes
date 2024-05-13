@@ -11,7 +11,7 @@ STMP uses [[W3N5 - The Web and HTTP#Non-persistent and persistent connections|pe
 STMP and [[W3N5 - The Web and HTTP#HyperText transfer protocol (HTTP)|HTTP]] are both used to transfer files from one host to another, but in different contexts. HTTP involves a client requesting files from a web server (a **pull protocol**), whereas STMP has the client sending a file to a mail server (a **push protocol**)
 ## STMP headers
 A typical email header looks like this:
-```STMP
+```
 From: alice@aServer.com
 To: bob@anotherServer.com
 Subject: Hello
