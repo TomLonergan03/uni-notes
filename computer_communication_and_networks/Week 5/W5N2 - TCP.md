@@ -51,7 +51,7 @@ TCP achieves this by having the sender maintain a variable called the receive wi
 ## Setup
 The 3-way handshake occurs as follows:
 1. The client sends a TCP segment with no data to the server, with the SYN flag bit set and a randomly chosen initial client sequence number (`client_isn`) in the sequence field. This is a **SYN message**
-2. The server responds with a TCP segment with the SYN bit set and the acknowledgement number set to `client_isn`+1. It also randomly chooses an initial server sequence number (`server_isn`) and sets the sequence field to that. The server also allocates the buffers and variables to hold data and track the connection. This is the **SYNACK message**
+2. The server responds with a TCP segment with the SYN and ACK bits set and the acknowledgement number set to `client_isn`+1. It also randomly chooses an initial server sequence number (`server_isn`) and sets the sequence field to that. The server also allocates the buffers and variables to hold data and track the connection. This is the **SYNACK message**
 3. Once this segment is received, the client allocates the connection variables and buffers, and acknowledges the server's SYNACK message, by putting the value `server_isn`+1 in the acknowledgement number field. This is the **ACK message**
 Once these have occurred, the connection is established and data transfer can begin.
 ## Teardown

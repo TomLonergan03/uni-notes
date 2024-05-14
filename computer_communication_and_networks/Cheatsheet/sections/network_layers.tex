@@ -50,7 +50,7 @@ Today, most email clients are sent using a web browser, so emails are requested 
 The \textbf{Domain Name System} is responsible for translating application layer hostnames to network layer IP addresses. It is a distributed database implemented in a hierarchy of DNS servers. When a request is made, the DNS client calls a local DNS server, which then calls a root DNS server, which then calls a top-level domain DNS server, which then calls an authoritative DNS server. The authoritative DNS server then sends the IP address back to the client. The local server will cache the IP address of the response, but will also cache the addresses of the various servers, meaning that the root servers are very rarely contacted. DNS resolution uses both recursive requests (the client asks the server to resolve the request) and iterative requests (the client asks the server to tell it the next server to contact). A hostname may map to many IP addresses, in which case the server responds with them in a random order. As the client usually picks the first one, this acts as a simple load balancing system.\\
 A DNS request has this format:
 \includegraphics[width=\linewidth]{../images/w3n7dnsMessage.png}\\
-And a record has the format \verb|<name, value, type, ttl>|. The \textbf{type} states what the record is, \verb|A| means \verb|name| is a hostname and \verb|value| is the corresponding IP address, \verb|NS| means \verb|name| is a domain and \verb|value| is the server knows the next step in resolving that domain, \verb|CNAME| means \verb|name| is an alias for \verb|value|, \verb|MX| means \verb|name| is a domain and \verb|value| is the mail server for that domain. The \textbf{ttl} is the time the record can be cached for.\\
+And a record has the format \verb|<name, value, type, ttl>|. The \textbf{type} states what the record is, \verb|A| means \verb|name| is a hostname and \verb|value| is the corresponding IP address, \verb|NS| means \verb|name| is a domain and \verb|value| is the server knows the next step in resolving that domain, \verb|CNAME| means \verb|name| is an alias for \verb|value|, \verb|MX| means \verb|name| is a domain and \verb|value| is the mail server for that domain. The \textbf{TTL} is the time the record can be cached for.\\
 
 \subsubsection{P2P and BitTorrent}
 \textbf{Peer-to-peer} applications communicate directly with other peers without requiring a central server. P2P applications are used for file distribution, streaming, and telephony, as they are well suited to sharing large files.\\
@@ -64,13 +64,73 @@ $$
 $$
 $D_{P2P}$ equals that only when the server sends bits one at a time to each client.\\
 \textbf{BitTorrent} is a popular P2P file distribution protocol. A file is broken into chunks, typically 256 KB each, and all peers for a file form a torrent. Each torrent has a tracker, which keeps a list of all active peers. When a new peer (we'll call Alice) joins a torrent, it contacts the tracker, which selects a random subset of peers and sends their IPs to Alice who attempts to open concurrent TCP connections with all the IPs it received. Each successful connection is counted as a "neighbouring peer", and over time some of those peers will leave while others join and establish connections, leading to Alice's neighbouring peers fluctuating over time. Every neighbour will have a different subset of chunks of the file, so Alice will periodically request a list of the chunks each of its neighbours has. Alice then determines which chunks are held by fewest of her neighbours and requests them first (rarest-first), this means that each chunk of a file should end up roughly equally distributed.\\
-Alice will also receive requests for chunks for each of her neighbours, and she selects the four that are sending her the highest rate of bits, and reciprocates by sending them their requested chunks - these neighbours are known as **unchoked**. She recalculates the top four every 10 seconds. Every 30 seconds, she also selects one random neighbour (in this case Bob) and sends it chunks - this neighbour is **optimistically unchoked**. If Alice makes it into Bob's top four uploaders and he will reciprocate, and may also make it into Alice's top four. This means that peers will gradually match up with other peers that are capable of uploading at comparable rates, and that a new peer will get chunks that it can trade with its neighbours. All other neighbouring peers receive nothing from Alice, and are **choked**.
+Alice will also receive requests for chunks for each of her neighbours, and she selects the four that are sending her the highest rate of bits, and reciprocates by sending them their requested chunks - these neighbours are known as \textbf{unchoked}. She recalculates the top four every 10 seconds. Every 30 seconds, she also selects one random neighbour (in this case Bob) and sends it chunks - this neighbour is \textbf{optimistically unchoked}. If Alice makes it into Bob's top four uploaders and he will reciprocate, and may also make it into Alice's top four. This means that peers will gradually match up with other peers that are capable of uploading at comparable rates, and that a new peer will get chunks that it can trade with its neighbours. All other neighbouring peers receive nothing from Alice, and are \textbf{choked}.
+
+\subsubsection{QUIC}
+QUIC is an application layer protocol built on top of UDP, and provides error and congestion control, along with security. Integrating all of these allow it to set up reliability and authentication in 1 RTT, instead of requiring 2 RTTs that are required for TCP + TLS. In addition, QUIC can multiplex multiple streams over a single connection.
 
 \subsection{Transport layer}
+\textbf{Multiplexing} is the process of taking data from multiple applications and sending it over a single link. UDP uses a tuple of \verb|(destination IP, destination port)| to identify which application the data is for, while TCP uses a tuple of
+\begin{verbatim}
+	(source IP, source port, destination IP,
+	destination port)
+\end{verbatim}
+\subsubsection{UDP}
+\textbf{User Datagram Protocol} is a connectionless protocol that simply packages a bytestream into segments and sends it to the destination. It provides no guarantees of delivery, order, or duplicate packets. It performs simple error checking, and is used for applications that can tolerate some loss, such as streaming media, DNS, and SNMP. A UDP segment has this format:
+\includegraphics[width=\linewidth]{../images/w4n3udpSegment.png}\\
 
 \subsubsection{TCP}
-\textbf{Transmission Control Protocol} provides a delivery service that guarantees that a byte stream sent using it will arrive in order with no duplicate packets. It is a \textbf{connection oriented service}, meaning that the client and server exchange transport layer level control information before the application layer messages start to flow.
+\textbf{Transmission Control Protocol} provides a delivery service that guarantees that a byte stream sent using it will arrive in order with no duplicate packets. It is a \textbf{connection oriented service}, meaning that the client and server exchange transport layer level control information before the application layer messages start to flow. TCP creates a segment up to the \textbf{maximum segment size (MSS)} which is determined so that the TCP segment when encapsulated in an IP datagram can fit within the largest link-layer frame that can be sent by the sending host. Ethernet has a \textbf{maximum transmission unit (MTU)} of 1500 bytes, and the TCP+IP headers are usually 40 bytes, so the MSS is typically 1460 bytes. A TCP segment has this format:
+\includegraphics[width=\linewidth]{../images/w5n2tcpSegmentStructure.png}\\
+The \textbf{receive window} is the amount of data that the receiver is willing to accept, and is used to prevent the sender from overwhelming the receiver. The \textbf{options field} is usually empty, but can be used to negotiate a window scaling factor for high speed use cases or for timestamping. The 4 bit \textbf{header length} is the length of the header in 32 bit words, usually when there are no options it is 5. The flags CWR and ECE are for congestion notification, \textbf{URG} is used if there is an urgent pointer in the \textbf{urgent data pointer} field, though this is rarely used, \textbf{ACK} is set if the segment is an acknowledgement for a successfully received segment, \textbf{PSH} is used to push data to the application layer immediately, again rarely used, \textbf{RST} is used to reset the connection, \textbf{SYN} is used to establish a connection, and \textbf{FIN} is used to terminate a connection.\\
+\textbf{Sequence and acknowledgement numbers}: TCP uses cumulative acknowledgement, so the acknowledgement number is the next byte the receiver expects to receive. The sequence number is the byte number of the first byte in the segment. TCP usually, but isn't required to, cache data that is received after a gap in the sequence numbers, and only deliver it to the application layer once the gap is filled.\\
+\textbf{Retransmission timers}: TCP uses a retransmission timer with a variable timeout period. The period is calculated using a sample RTT based off of one currently transmitted but not yet ACKed segment, resulting in a new value approximately once every RTT. This is used to calculate an estimated RTT, using an \textbf{exponential weighted moving average (EWMA)} using the following formula:
+$$
+	\begin{aligned}
+		\text{EstimatedRTT}  =  (1- & \alpha)\cdot\text{EstimatedRTT} \\
+		+                           & \alpha\cdot\text{SampleRTT}
+	\end{aligned}
+$$
+The recommended, but not required, value for $\alpha$ is $0.125$.
+The variability of the sample RTT is also calculated, using:
+$$
+	\begin{aligned}
+		\text{DevRTT}=(1- & \beta)\cdot\text{DevRTT}                                            \\
+		+                 & \beta\cdot\left\vert\text{SampleRTT}-\text{EstimatedRTT}\right\vert
+	\end{aligned}
+$$
+If there is little variation of sample RTT values, then $\text{DevRTT}$ will be small, while if there is a lot of variability it will be large.
+The recommended value of $\beta$ is $0.25$.
 
+The timeout value is then set using both these values:
+$$
+	\text{TimeoutInterval}=\text{EstimatedRTT}+4\cdot\text{DevRTT}
+$$
+This means that the timeout stays close to the estimated RTT, but if $\text{DevRTT}$ grows then so does the timeout period.
+An initial $\text{TimeoutInterval}$ of 1 second is recommended, and if a timeout occurs then the timeout is doubled until a segment is received, after which the timeout is recalculated using the above equation.\\
+\textbf{Flow control} prevents the sender from overflowing the receive buffer of the receiver. The receiver advertises a \textbf{receive window} in each segment, which is the amount of data it is willing to accept. Each time the receiver sends a segment, it includes the current amount of space it has in its receive buffer. The sender uses this value to ensure that the number of unacknowledged bytes in transit is never more than the receive window, ensuring that the receiving buffer never overflows. In the case that the receiver's buffer is full, and it gives the sender a window size of 0, and the receiver has no segments it wants to send, the sender will continue to send 1 data byte segments to the receiver until the receiving application starts reading from the buffer again and the recipient will start responding with non-zero window sizes.\\
+\textbf{Connection setup}: The \textbf{three-way handshake} is used to establish a connection. The client sends a segment with the SYN flag set and a randomly chosen initial client sequence number \verb|client_isn| to the server, this is the SYN message. The server responds with a segment with the SYN and ACK bits set, a random initial server sequence number \verb|server_isn|, and the acknowledgement number set to \verb|client_isn+1|, this is the SYN-ACK message. The client then sends a segment with the ACK bit set, the sequence number set to \verb|client_isn+1|, and the acknowledgement number set to \verb|server_isn+1|, this is the ACK message. The connection is now established, and data transfer can begin.\\
+\textbf{Connection teardown}: either party can end the connection at any point by sending a segment with the FIN bit set. The other party responds with an ACK, then its own FIN, which the first party responds to with an ACK. The connection is now closed.\\
+\textbf{Congestion control}: TCP performs congestion control by maintaining a congestion window \verb|cwnd| alongside the receive window \verb|rwnd| ant the maximum amount of data in flight at any time is \verb|min(cwnd, rwnd)|. A \textbf{loss event} occurs when either a timeout occurs or 3 duplicate ACKs are received. If \verb|rwnd| is large enough it can be ignored, so we will focus only on \verb|cwnd|.\\
+The TCP congestion control algorithm consists of 3 parts:\\
+1. \textbf{Slow start}: initially, TCP ramps up \verb|cwnd|, starting from 1 MSS, and increases it by 1 MSS every time an ACK is received. If a loss event occurs, \verb|cwnd| is set back to 1 MSS and the process repeats, except TCP also maintains a variable \verb|ssthresh| (slow-start threshold), which is set to half the \verb|cwnd| value at the time the loss event occurred. Once \verb|cwnd| reaches \verb|ssthresh|, slow start ends and enters congestion avoidance mode.\\
+2. \textbf{Congestion avoidance}: now, \verb|cwnd| is around half the value at which congestion last occurred, so TCP must be more careful. Therefore, \verb|cwnd| is increased by 1 MSS every RTT, usually by increasing the window by $MSS/\text{number of bytes in flight}$ for each ACK. If a timeout occurs, the response is the same as in slow start, \verb|ssthresh| is set to half of \verb|cwnd|, \verb|cwnd| is set to 1 MSS, and slow start mode is reentered. If 3 duplicate ACKs are received, then \verb|ssthresh| is set to \verb|cwnd|, and \verb|cwnd| is halved (+ 3 MSS for the duplicate ACKs received), and it enters fast recovery mode.\\
+3. \textbf{Fast recovery}: in this mode, \verb|cwnd| is increased by 1 MSS for every duplicate ACK received for the missing segment that caused fast recovery to start. Once that segment is ACKed, TCP returns to congestion avoidance with \verb|cwnd| set to \verb|ssthresh|, returning to the state it was in.\\
+The state machine for TCP congestion control is as follows:
+\includegraphics[width=\linewidth]{../images/w5n4tcpCongestionFsm.png}\\
+TCP uses \textbf{additive increase, multiplicative decrease (AIMD)} for congestion control.\\
+If a router is experiencing congestion, it may set the ECN bit in TCP ACKs passing through it, which causes the receiver to halve its \verb|cwnd|.\\
+\textbf{TCP throughput}: if $w$ is the window size, and when a loss event occurs the window halves to get $W$, then the throughput of a TCP connection is given by:
+$$
+	\text{Average throughput of a connection}=\frac{0.75\cdot W}{RTT}
+$$
+\textbf{Fairness}: if multiple TCP connections pass through the same bottleneck link, they tend to share the bandwidth fairly if they both have the same RTT. If they don't the connection with the smallest RTT will claim a larger portion of the available connection. This is the mechanism by which it converges on fairness:
+\includegraphics[width=\linewidth]{../images/w5n4tcpFairness.png}\\
 
 \subsection{Network layer}
+The network layer routes packets between hosts. It runs on every host and router on a network. The network layer consists of two components: the \textbf{control plane} determines the best routes across the network, and the \textbf{data plane} forwards packets based on those routes. The internet's network layer is the \textbf{Internet Protocol (IP)}, which provides only a "best effort service", with no guarantees of packets being delivered.\\
+
+\subsubsection{Data plane}
+
+
 \subsection{Link layer}

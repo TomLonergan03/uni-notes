@@ -14,7 +14,7 @@ Here, we can see the "saw tooth" behaviour of the congestion window. This occurs
 # Throughput
 In the big picture, we can determine the average throughput of a TCP connection. If $w$ is the window size, and if when a loss event occurs $w$ is halved to get $W$, then - assuming $W$ and RTT are relatively constant we get a minimum throughput of $\frac{W}{2\cdot RTT}$ and a maximum of $\frac{W}{RTT}$. As $w$ increases linearly between these two cases, we have
 $$
-\text{Average thoughput of a connection}=\frac{0.75\cdot W}{RTT}
+\text{Average throughput of a connection}=\frac{0.75\cdot W}{RTT}
 $$
 # Fairness
 If we have $K$ connections passing through a bottleneck link with bandwidth $R$ bps, then a congestion control mechanism is said to be **fair** if each connection's transmission rate is approximately $R/K$. The TCP AIMD algorithm does in fact tend to converge towards fairness.
