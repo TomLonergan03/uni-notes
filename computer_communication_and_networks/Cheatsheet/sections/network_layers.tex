@@ -55,13 +55,13 @@ And a record has the format \verb|<name, value, type, ttl>|. The \textbf{type} s
 \subsubsection{P2P and BitTorrent}
 \textbf{Peer-to-peer} applications communicate directly with other peers without requiring a central server. P2P applications are used for file distribution, streaming, and telephony, as they are well suited to sharing large files.\\
 If we have a system with $N$ hosts wishing to download an $F$ bit file, peer[$i$] having an upload rate of $u_i$ and a download rate of $d_i$, along with a server with an upload rate of $u_s$, then for a client server architecture the time for all clients to download the file is bounded by
-$$
+\[
 	D_{CS}\ge\max\left\{\frac{NF}{u_s},\frac{F}{d_{\min}}\right\}
-$$
+\]
 In a P2P system, each peer who gets a part of the file can distribute it onwards, and the download time is bounded by
-$$
+\[
 	D_{P2P}\ge\max\left\{\frac{F}{u_s},\frac{F}{d_{\min}},\frac{NF}{u_s+\sum^N_{i=1}u_i}\right\}
-$$
+\]
 $D_{P2P}$ equals that only when the server sends bits one at a time to each client.\\
 \textbf{BitTorrent} is a popular P2P file distribution protocol. A file is broken into chunks, typically 256 KB each, and all peers for a file form a torrent. Each torrent has a tracker, which keeps a list of all active peers. When a new peer (we'll call Alice) joins a torrent, it contacts the tracker, which selects a random subset of peers and sends their IPs to Alice who attempts to open concurrent TCP connections with all the IPs it received. Each successful connection is counted as a "neighbouring peer", and over time some of those peers will leave while others join and establish connections, leading to Alice's neighbouring peers fluctuating over time. Every neighbour will have a different subset of chunks of the file, so Alice will periodically request a list of the chunks each of its neighbours has. Alice then determines which chunks are held by fewest of her neighbours and requests them first (rarest-first), this means that each chunk of a file should end up roughly equally distributed.\\
 Alice will also receive requests for chunks for each of her neighbours, and she selects the four that are sending her the highest rate of bits, and reciprocates by sending them their requested chunks - these neighbours are known as \textbf{unchoked}. She recalculates the top four every 10 seconds. Every 30 seconds, she also selects one random neighbour (in this case Bob) and sends it chunks - this neighbour is \textbf{optimistically unchoked}. If Alice makes it into Bob's top four uploaders and he will reciprocate, and may also make it into Alice's top four. This means that peers will gradually match up with other peers that are capable of uploading at comparable rates, and that a new peer will get chunks that it can trade with its neighbours. All other neighbouring peers receive nothing from Alice, and are \textbf{choked}.
@@ -70,42 +70,41 @@ Alice will also receive requests for chunks for each of her neighbours, and she 
 QUIC is an application layer protocol built on top of UDP, and provides error and congestion control, along with security. Integrating all of these allow it to set up reliability and authentication in 1 RTT, instead of requiring 2 RTTs that are required for TCP + TLS. In addition, QUIC can multiplex multiple streams over a single connection.
 
 \subsection{Transport layer}
-\textbf{Multiplexing} is the process of taking data from multiple applications and sending it over a single link. UDP uses a tuple of \verb|(destination IP, destination port)| to identify which application the data is for, while TCP uses a tuple of
-\begin{verbatim}
-	(source IP, source port, destination IP,
-	destination port)
-\end{verbatim}
+\textbf{Multiplexing} is the process of taking data from multiple applications and sending it over a single link. UDP uses a tuple of \verb|(destination IP, destination port)| to identify which application the data is for, while TCP uses a tuple of \verb|(source IP, source port, destination IP,| \verb|destination port)|.
+
 \subsubsection{UDP}
-\textbf{User Datagram Protocol} is a connectionless protocol that simply packages a bytestream into segments and sends it to the destination. It provides no guarantees of delivery, order, or duplicate packets. It performs simple error checking, and is used for applications that can tolerate some loss, such as streaming media, DNS, and SNMP. A UDP segment has this format:
-\includegraphics[width=\linewidth]{../images/w4n3udpSegment.png}\\
+\textbf{User Datagram Protocol} is a connectionless protocol that simply packages a bytestream into segments and sends it to the destination. It provides no guarantees of delivery, order, or duplicate packets. It performs simple error checking, and is used for applications that can tolerate some loss, such as streaming media, DNS, and SNMP. A UDP segment has this format:\\
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{../images/w4n3udpSegment.png}\\
+\end{center}
 
 \subsubsection{TCP}
-\textbf{Transmission Control Protocol} provides a delivery service that guarantees that a byte stream sent using it will arrive in order with no duplicate packets. It is a \textbf{connection oriented service}, meaning that the client and server exchange transport layer level control information before the application layer messages start to flow. TCP creates a segment up to the \textbf{maximum segment size (MSS)} which is determined so that the TCP segment when encapsulated in an IP datagram can fit within the largest link-layer frame that can be sent by the sending host. Ethernet has a \textbf{maximum transmission unit (MTU)} of 1500 bytes, and the TCP+IP headers are usually 40 bytes, so the MSS is typically 1460 bytes. A TCP segment has this format:
+\textbf{Transmission Control Protocol} provides a delivery service that guarantees that a byte stream sent using it will arrive in order with no duplicate packets. It is a \textbf{connection oriented service}, meaning that the client and server exchange transport layer level control information before the application layer messages start to flow. TCP creates a segment up to the \textbf{maximum segment size (MSS)} which is determined so that the TCP segment when encapsulated in an IP datagram can fit within the largest link-layer frame that can be sent by the sending host. Ethernet has a \textbf{maximum transmission unit (MTU)} of 1500 bytes, and the TCP+IP headers are usually 40 bytes, so the MSS is typically 1460 bytes. A TCP segment has this format:\\
 \includegraphics[width=\linewidth]{../images/w5n2tcpSegmentStructure.png}\\
 The \textbf{receive window} is the amount of data that the receiver is willing to accept, and is used to prevent the sender from overwhelming the receiver. The \textbf{options field} is usually empty, but can be used to negotiate a window scaling factor for high speed use cases or for timestamping. The 4 bit \textbf{header length} is the length of the header in 32 bit words, usually when there are no options it is 5. The flags CWR and ECE are for congestion notification, \textbf{URG} is used if there is an urgent pointer in the \textbf{urgent data pointer} field, though this is rarely used, \textbf{ACK} is set if the segment is an acknowledgement for a successfully received segment, \textbf{PSH} is used to push data to the application layer immediately, again rarely used, \textbf{RST} is used to reset the connection, \textbf{SYN} is used to establish a connection, and \textbf{FIN} is used to terminate a connection.\\
 \textbf{Sequence and acknowledgement numbers}: TCP uses cumulative acknowledgement, so the acknowledgement number is the next byte the receiver expects to receive. The sequence number is the byte number of the first byte in the segment. TCP usually, but isn't required to, cache data that is received after a gap in the sequence numbers, and only deliver it to the application layer once the gap is filled.\\
 \textbf{Retransmission timers}: TCP uses a retransmission timer with a variable timeout period. The period is calculated using a sample RTT based off of one currently transmitted but not yet ACKed segment, resulting in a new value approximately once every RTT. This is used to calculate an estimated RTT, using an \textbf{exponential weighted moving average (EWMA)} using the following formula:
-$$
+\[
 	\begin{aligned}
 		\text{EstimatedRTT}  =  (1- & \alpha)\cdot\text{EstimatedRTT} \\
 		+                           & \alpha\cdot\text{SampleRTT}
 	\end{aligned}
-$$
+\]
 The recommended, but not required, value for $\alpha$ is $0.125$.
 The variability of the sample RTT is also calculated, using:
-$$
+\[
 	\begin{aligned}
 		\text{DevRTT}=(1- & \beta)\cdot\text{DevRTT}                                            \\
 		+                 & \beta\cdot\left\vert\text{SampleRTT}-\text{EstimatedRTT}\right\vert
 	\end{aligned}
-$$
+\]
 If there is little variation of sample RTT values, then $\text{DevRTT}$ will be small, while if there is a lot of variability it will be large.
 The recommended value of $\beta$ is $0.25$.
 
 The timeout value is then set using both these values:
-$$
+\[
 	\text{TimeoutInterval}=\text{EstimatedRTT}+4\cdot\text{DevRTT}
-$$
+\]
 This means that the timeout stays close to the estimated RTT, but if $\text{DevRTT}$ grows then so does the timeout period.
 An initial $\text{TimeoutInterval}$ of 1 second is recommended, and if a timeout occurs then the timeout is doubled until a segment is received, after which the timeout is recalculated using the above equation.\\
 \textbf{Flow control} prevents the sender from overflowing the receive buffer of the receiver. The receiver advertises a \textbf{receive window} in each segment, which is the amount of data it is willing to accept. Each time the receiver sends a segment, it includes the current amount of space it has in its receive buffer. The sender uses this value to ensure that the number of unacknowledged bytes in transit is never more than the receive window, ensuring that the receiving buffer never overflows. In the case that the receiver's buffer is full, and it gives the sender a window size of 0, and the receiver has no segments it wants to send, the sender will continue to send 1 data byte segments to the receiver until the receiving application starts reading from the buffer again and the recipient will start responding with non-zero window sizes.\\
@@ -121,9 +120,9 @@ The state machine for TCP congestion control is as follows:
 TCP uses \textbf{additive increase, multiplicative decrease (AIMD)} for congestion control.\\
 If a router is experiencing congestion, it may set the ECN bit in TCP ACKs passing through it, which causes the receiver to halve its \verb|cwnd|.\\
 \textbf{TCP throughput}: if $w$ is the window size, and when a loss event occurs the window halves to get $W$, then the throughput of a TCP connection is given by:
-$$
+\[
 	\text{Average throughput of a connection}=\frac{0.75\cdot W}{RTT}
-$$
+\]
 \textbf{Fairness}: if multiple TCP connections pass through the same bottleneck link, they tend to share the bandwidth fairly if they both have the same RTT. If they don't the connection with the smallest RTT will claim a larger portion of the available connection. This is the mechanism by which it converges on fairness:
 \includegraphics[width=\linewidth]{../images/w5n4tcpFairness.png}\\
 
@@ -155,9 +154,9 @@ When a packet arrives at the router, the router table finds the longest matching
 The control plane determines how packets are routed across the network. There are two approaches: \textbf{per router control}: a routing algorithm runs on every router, and so routers talk to each other to determine what the best routes are, and \textbf{logically centralised control}: a single routing controller determines the best routes, and tells all routers on the network what their forwarding tables should be.\\
 \textbf{Routing algorithms} determine "good" paths from senders to receivers for some definition of "good", generally the shortest or fastest path. Routing algorithms can be \textbf{static} if routes are computed once and rarely change, or \textbf{dynamic} if routes are recomputed as the network changes. They are \textbf{load sensistive} if they dynamically vary the routes based on the current network load.\\
 A \textbf{link-state algorithm} has every router send a message to every other router with the state of its links, and then each router constructs a graph of the network and uses Dijkstra's algorithm to find the shortest path. Each router should advertise its link costs at random intervals to prevent route oscillations. The \textbf{distance-vector (DV) algorithm} is iterative, asynchronous, and distributed, and scales better than link state as routers only need to send messages to their neighbours. Each router maintains a distance vector, which is the cost of the shortest path to every other router. The router then sends its distance vector to its neighbours, who then update their distance vectors based on the received vectors. Distance vectors are updated by finding the minimum cost to each destination, based on which neighbour has the lowest cost from the current router to that one added to the cost from that router to the destination based on the received distance vector. The \textbf{Bellman-Ford equation} is used to update the distance vector, and is:
-$$
+\[
 	d_x(y)=\text{min}_v\{c(x,v)+d_v(y)\}
-$$
+\]
 It is possible for loops to form if link costs increase, where one node $x$ routes through $y$ to get to $z$, while $y$ routes through $x$ to get to $z$. In the above case, when $c(x,y)$ goes up to 60, then $y$ recalculates its shortest path to 6, but this is based on $z$ saying it has a $c(z,x)=5$ path available. $z$ then gets this update, and recalculates $c(z,x)$ to 7, and so on until the costs have counted up to be more than 50 (44 iterations). This is known as the \textbf{count-to-infinity problem}. This can be partially fixed by having $z$ lie to $y$ and say it has no route to $x$ because its route to $x$ goes via $y$ (the \textbf{poisoned reverse}). This is not perfect though, as larger loops can still form.\\
 DV and LS algorithms differ on a number of key metrics: \textbf{Message complexity}: LS requires each node to be sent the cost of every link in the network, or $O(|N|+|E|)$ messages, and when a link cost changes this must all be sent again. DV only sends messages between neighbours at each iteration, and these messages need only to be sent after a link cost changes, significantly reducing the number of messages needed. \textbf{Speed of convergence}: LS takes $O(|N|^2)$ to calculate all routes, while DV converges slowly and can have routing loops until the network converges. \textbf{Robustness}: single corrupt routers can influence DV more significantly, as every router depends on every other routers' communication, causing incorrect values to diffuse through the whole network.\\
 
@@ -178,9 +177,9 @@ The link layer provides \textbf{error detection and correction}. The simplest ap
 \textbf{2-dimensional parity} allows for correction of bit errors. The message is arranged into an $n\times m$ grid, and a parity bit is calculated for each row and column so that each row or column has an even number of 1 bits. When the message is received, the parity bits are recalculated, and if there is an error then the row and column of the error can be determined, and it can be flipped back. This allows detecting any combination of 2 bit errors, and some that involve more than 2 bits.\\
 \textbf{Checksums} treat the numbers as a sequence of 16-bit integers, and sum them all together. The sum is then 1s complemented, and the result is the checksum. When the message is received, the checksum is recalculated, and if the result is 0 then no errors have occurred.\\
 The \textbf{cyclic redundancy check (CRC)} is a more compute intensive error detection method. The sender and receiver agree on a \textbf{generator} $G$, and when sender the sender wants to send $d$ bits of data $D$ it chooses $r$ additional bits $R$ and appends them to $D$ such that the resulting $d+r$ bit pattern is exactly divisible by $G$ using modulo 2 arithmetic, without carries in addition or borrows in subtraction. This means that addition and subtraction are identical, and both are equivalent to the bitwise XOR of the operands. $R$ can be calculated as:
-$$
+\[
 	R=\text{remainder}\frac{D\cdot2^r}{G}
-$$
+\]
 A CRC check can detect all consecutive bit errors of $r$ or fewer bits, as well as any odd number of bit errors.
 
 \subsubsection{Multiple access links}
@@ -189,9 +188,9 @@ Multiple access links can have several nodes trying to send data at the same tim
 \textbf{ALOHA} has unsynchronised nodes, which means that a collision can happen when two transmissions overlap even slightly. This results in an overall efficiency of $\frac{1}{2e}$.\\
 \textbf{Carrier sense multiple access (CSMA)} is a protocol where nodes listen to the channel before transmitting, and only transmit if the channel is free. If a collision occurs, the node waits a random period before retransmitting.\\
 \textbf{Carrier sense multiple access with collision detection (CSMA/CD)} also halts transmission as soon as a collision occurs, saving the wasted bandwidth of transmitting a whole frame. The efficiency of CSMA/CD is:
-$$
+\[
 	\text{Efficiency}=\frac{1}{1+\frac{5\cdot d_\text{prop}}{d_\text{trans}}}
-$$
+\]
 This means that as $d_\text{prop}$ approaches 0, the efficiency approaches 1 (as if there is no transmission delays a node always knows if any other is talking), and that as $d_\text{trans}$ grows, efficiency increases (as if a frame is transmitting for a very long period it will propagate to all other nodes, at which point it has claimed the channel no other node will start transmitting).\\
 \textbf{DOCSIS} is the link layer protocol for cable internet. It divides downstream and upstream lines using FDM into frequency bands of 6 MHz downstream for a channel throughput of \textasciitilde 40 Mbps and 6.4 MHz upstream for \textasciitilde 30 Mbps. Frames transmitted downstream are sent to all nodes on a channel, but only the \textbf{single cable modem termination system (CMTS)} can transmit. Upstream is divided using TDM, and the CMTS uses MAP mesages to grant time slots to specific modems. Modems use random backoff during a dedicated request window to request a time slot.\\
 \textbf{Ethernet} is a common link layer protocol. Every network interface has a globally unique MAC address, with the first 24 bits being allocated to a manufacture, and the second 24 bits being allocated uniquely as they see fit. It uses CSMA/CD, and has a frame format of:

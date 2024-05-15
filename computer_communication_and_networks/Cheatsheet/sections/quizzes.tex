@@ -1,7 +1,96 @@
 \section{Quizzes}
 \subsection{Quiz 1}
+\begin{enumerate}
+	\itemsep-0.5em
+	\item Routers are guaranteed to forward packets to the next router/host: False
+	\item CDNs are used to reduce the traffic to the original service: True
+	\item Buffering is important for routers but can increase communication latency: True
+	\item Mobile devices usually can connect directly to the network core: False
+	\item In network cores packet routing is local: False
+	\item Statistical multiplexing is employed by circuit switching: False
+	\item Traceroute can identify the routers between two hosts: True
+	\item Routers perform congestion/flow control: False
+	\item Is downloading 1MB of data over a 1Gbps link with 100ms RTT 1000x faster than downloading 1MB of data over a 1Mbps link with 100ms RTT: No, it takes 80 RTTs in the 1Mbps case, but still takes 1 RTT in the 1Gbps case.
+	\item How do IXPs reduce costs for ISPs: Customers want global internet connectivity, but ISPs can't afford to connect to every other ISP. IXPs provide a way for ISPs to connect to each other without having to connect to every other ISP, and when they peer they typically don't pay each other.
+	\item What is the end-to-end delay of sending 1 $L$ bit packet over an $R$ bps link of length $m$ metres and propagation speed $s$ m/s: $d_{prop}=m/s$, $d_{trans}=L/R$, $d_{end}=d_{prop}+d_{trans}=m/s+L/R$
+	\item What is the bandwidth delay product in Kbits if bandwidth = 10 Gbps and RTT = 40 $\mu$s: $10^7 \times 40 \times 10^{-6} = 400$ Kbits
+	\item $N$ packets arrive at a router with no queue, each packet is $L$ bits and link transmission is $R$ bps. What is the minimum and maximum experienced queuing delays: Minimum is 0, maximum is $(N-1)L/R$
+	\item Why are there two missing layers in the internet stack vs OSI: They can be implemented in the application layer if needed.
+	\item Benefit of layering: Simplicity, modularity, only need to worry about the layer above and below.
+	\item What is store and forward: Entire packet must arrive before it can be forwarded.
+	\item 2 problems with TCP: packet losses are recovered even if the application doesn't need them, congestion control can slow down connection
+\end{enumerate}
+
 \subsection{Quiz 2}
+\begin{enumerate}
+	\itemsep-0.5em
+	\item Web browser is a client: True
+	\item Cookies are used across multiple websites: True
+	\item Socket is the interface between the application and transport layer: True
+	\item Web caches are application layer: True
+	\item DNSSEC provides encryption of DNS messages: False
+	\item P2P file distribution time increases linearly instead of exponentially: False
+	\item If a local DNS server can't resolve a name it asks a root server: True
+	\item TCP sockets provide datagram transport abstraction: False
+	\item Why can DNSSEC protect against DNS cache poisoning: DNSSEC adds a signature to requests and responses, so the client knows if it is tampered
+	\item BitTorrent incentivises users to upload: Users can download faster if they upload
+	\item How many RTTs does it take to download an 1 packet large HTML file, and what is each for: 2 RTTs, 1 for TCP handshake, 1 for request
+	\item 100 requests per second, 1 Gbps link, negligible request 9 Mbit response. To reduce traffic intensity to 0.6, what cache hit rate is needed: $9\text{Mbit}\times(100\times(1-H))/1000\text{Mbps}=0.6$, $1-H=700/900$, $H=1-6/9=0.34$
+\end{enumerate}
+
 \subsection{Quiz 3}
+\begin{enumerate}
+	\itemsep-0.5em
+	\item SYN cookies prevent creating state for SYN packets: True
+	\item If a firewall strips TCP options, the maximum window size is 65535: True
+	\item The TCP options field is no larger than 40 bytes: True
+	\item UDP doesn't retransmit but does checksum: True
+	\item TCP window scaling is negotiated during the handshake: True
+	\item TCP guarantees application message boundaries in segments: False
+	\item Without window scaling, the maximum window size is \textasciitilde 65 KB: True
+	\item Both the initiator and responder decide their own initial sequence number in TCP: True
+	\item When one TCP endpoint sends a FIN and the other receives it, the connection is closed: False
+	\item Why must a TCP RST number contain the sequence number of the segment that triggered it: To prevent spoofing
+	\item TCP measures RTT even if the receiver is using delayed ACKs: The RTO value must be higher than the time to receive the ACK even if it's delayed to prevent retransmission
+	\item 2 problems with defining TCP options for features: TCP is implemented in kernel, which makes it slow to update, and options can be dropped by firewalls
+	\item Explain TCP SACK: Selective Acknowledgement allows the receiver to acknowledge multiple segments at once, and to specify which segments are missing, preventing unnecessary retransmissions
+	\item Why use UDP: Lower overhead, no connection setup, no congestion control, no retransmissions
+	\item Difference between application program and process: A program is a file on disk, a process is a running instance of a program
+	\item Explain ACK clocking: a lower rate of ACKs slows the rate of transmission when there is a lot of queuing delay
+	\item Explain DCTCP: Data Centre TCP, uses ECN to signal congestion, and uses a fraction of the ECN signal to adjust the window size instead of halving it
+\end{enumerate}
+
 \subsection{Quiz 4}
+\begin{enumerate}
+	\itemsep-0.5em
+	\item NATs violate end-to-end principles: True
+	\item OSPF sends its link state information to its neighbours only: False
+	\item IS-IS uses the link state algorithm: True
+	\item DV algorithm uses global information: False
+	\item DV is faster to converge than LS: False
+	\item Gateway routers only run eBGP: False
+	\item Hot-potato routing sends traffic to another AS via the closest gateway: True
+	\item Describe the count to infinity problem: In DV, if a link cost goes up, the routers will keep sending updates to each other with increasing distances by 1, which will continue until the distance reaches the actual cost (or infinity if the link is down)
+	\item How does OSPF reduce routing table size and link state information: By using areas, routers only need to know the topology of their area, and the area border routers know the topology of the entire network
+	\item How can IPv6 be carried over an IPv4 network and what are the drawbacks: Tunneling the packets by encapsulating them in IPv4 packets. Drawbacks are the overhead of encapsulation, and that the IPv4 datagrams may be fragmented.
+	\item Why is DV better for networks with nodes dynamically joining: LS requires the entire network topology to be known, which is difficult to maintain with dynamic nodes, whereas DV only requires neighbouring nodes to be known
+\end{enumerate}
+
 \subsection{Quiz 5}
+\begin{enumerate}
+	\itemsep-0.5em
+	\item The maximum efficiency of Slotted ALOHA is half of Pure ALOHA: False
+	\item CRC is used in both Ethernet and IPv4: False
+	\item Two dimensional parity schemes can correct an error bit: True
+	\item OpenFlow can match packets MAC and IP addresses: True
+	\item An OpenFlow controller needs to run in the same broadcast domain with the OpenFlow switches to communicate: False
+	\item ARP packets use UDP: False
+	\item ARP tables can be statically configured: True
+	\item A self-learning layer 2 switch learns the output port for a specific MAC address based on the source MAC address of incoming packets to that port: True
+	\item Maximum packet rate with min-sized Ethernet frames over a 25 Gbps link: $(25\times10^9/8)/(8+64+12)=37.2$ Mpps
+	\item If all links provided reliable delivery, would TCP be redundant: No, TCP provides flow control and congestion control, and packets could still be lost due to buffer overflows, routing loops, or equipment failures
+	\item Why is generalised forwarding more suitable for firewalls than destination-based forwarding: Firewalls need to match packets against not only destination IP addresses but also other fields, such as source IP addresses and port numbers
+	\item What packets are sent to obtain an IP address from a DHCP server: Broadcast DHCP discovery, broadcast/unicast DHCP offer, broadcast DHCP request, unicast DHCP ACK
+	\item Star topology with nodes A to F, what is the state of the link table after each event and where are the frames sent B$\rightarrow$E, E$\rightarrow$B, A$\rightarrow$B, B$\rightarrow$A: after 1, switch knows B, frame sent to all but B, after 2, switch knows B, E, frame sent to B, after 3, switch knows A, B, E, frame sent to B, after 4, switch knows A, B, E, frame sent to B
+\end{enumerate}
 
