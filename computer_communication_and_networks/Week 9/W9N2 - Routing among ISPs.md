@@ -14,7 +14,8 @@ In the simple case, BGP has only one path to select, so it chooses that one. Whi
 1. A route has a **local preference** attribute that is assigned by the network administrator of the AS. Only routes with the highest local preference value are selected.
 2. From the remaining routes, the routes with the smallest `AS-PATH` length are selected.
 3. From the remaining routes, hot potato routing is used.
-4. If more than one route remains, the router uses BGP identifiers to select the route. Now, when routing from $\text{1b}$ to $\text{x}$ and assuming both routes have the same local preference, packets are routed to bypass $\text{AS2}$ as that route has a shorter `AS-PATH` length. This means that BGP is not a selfish algorithm, as it considers the approximate length of a route outside the current AS, which likely leads to lower end-to-end delays.
+4. If more than one route remains, the router uses BGP identifiers to select the route. 
+Now, when routing from $\text{1b}$ to $\text{x}$ and assuming both routes have the same local preference, packets are routed to bypass $\text{AS2}$ as that route has a shorter `AS-PATH` length. This means that BGP is not a selfish algorithm, as it considers the approximate length of a route outside the current AS, which likely leads to lower end-to-end delays.
 # IP-Anycast
 BGP routing allows for a simple way to route packets to the nearest server for purposes such as [[W3N7 - DNS|DNS resolution]] (despite only having 13 root DNS IPs, there are in some cases more than 100 physical servers sharing each of those IPs). If servers in different ASes use the same IP address, BGP routing will ensure that a request goes to one of the nearest servers. This is good for stateless protocols, but for TCP or other stateful protocols a BGP routing change during the connection can result in some packets being routed to a different server.
 # Routing policy
