@@ -181,6 +181,7 @@ The \textbf{cyclic redundancy check (CRC)} is a more compute intensive error det
 	R=\text{remainder}\frac{D\cdot2^r}{G}
 \]
 A CRC check can detect all consecutive bit errors of $r$ or fewer bits, as well as any odd number of bit errors.
+The process of calculating $R$ is: extend $D$ by $r$ 0 bits, then divide (XOR) by $G$, then append remainder to $D$. The receiver then divides the received message by $G$, and if the remainder is 0 then no errors have occurred.\\
 
 \subsubsection{Multiple access links}
 Multiple access links can have several nodes trying to send data at the same time. There are three main approaches to this: \textbf{channel partitioning} such as frequency or time driven multiplexing, \textbf{random access protocols} have each node attempt to transmit, and if it detects a collision it will wait a random period before trying to retransmit, and \textbf{taking turns} protocols have a master node that controls who can transmit when (or by passing a token). Channel partitioning leads to wasted bandwidth when a node isn't sending data, random access protocols waste bandwidth when collisions occur, and taking turns protocols have a single point of failure. In reality, most protocols are a combination of these approaches.\\
