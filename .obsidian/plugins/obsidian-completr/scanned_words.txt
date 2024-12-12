@@ -267,6 +267,8 @@ insurance
 intruder
 interfered
 independently
+introducing
+interruptions
 or
 of
 operations
@@ -453,6 +455,8 @@ overlaps
 opening
 overread
 overflows
+overview
+ordered
 there
 that
 than
@@ -723,6 +727,10 @@ transfers
 trained
 test
 tries
+timestamps
+timestamp
+totally
+threads
 some
 smaller
 so
@@ -1143,6 +1151,10 @@ selection
 statistical
 symmetrically
 salt
+synchronisation
+snapshots
+spinlocks
+spinlock
 multiple
 matter
 many
@@ -1372,6 +1384,8 @@ mistakenly
 mutual
 manager
 memorises
+meta
+minimise
 eventually
 execute
 each
@@ -1653,6 +1667,10 @@ events
 expensive
 easiest
 exploiting
+exclusive
+exclusion
+eliminated
+exiting
 bounded
 by
 below
@@ -1846,6 +1864,8 @@ bizarre
 bios
 basics
 bob
+beneficial
+blocking
 above
 asymptotically
 as
@@ -2174,6 +2194,11 @@ agreement
 apparently
 agreed
 automated
+arranged
+acquisition
+atomic
+aborting
+acquired
 no
 number
 not
@@ -2459,6 +2484,8 @@ warm
 willing
 writable
 wherever
+waiting
+wasting
 Defined
 Different
 Datastructures
@@ -2606,6 +2633,7 @@ DOM
 Defences
 Dbg
 Dynamically
+Deadlocks
 Can
 CPU
 Create
@@ -2784,6 +2812,9 @@ CSS
 CSP
 CQz
 CSRF
+Centralised
+Circular
+Critical
 consider
 compare
 cost
@@ -3203,6 +3234,13 @@ correspond
 cover
 commutative
 contiguous
+centralised
+consensus
+conditions
+circle
+claiming
+cycle
+critical
 larger
 lower
 likely
@@ -3392,6 +3430,8 @@ literally
 lowest
 lets
 learning
+locking
+livelock
 upper
 use
 useful
@@ -3741,6 +3781,7 @@ fallacy
 flagged
 forced
 falsifying
+followed
 There
 Typically
 The
@@ -4219,6 +4260,9 @@ proved
 preventative
 positives
 precomputed
+preemption
+parallelism
+preempted
 various
 values
 value
@@ -4352,6 +4396,7 @@ visitor
 validation
 vice
 versa
+voluntarily
 kinds
 know
 keys
@@ -4833,6 +4878,11 @@ detections
 detected
 defeated
 develop
+deadlocks
+decentralised
+degenerates
+determining
+detecting
 how
 have
 halves
@@ -4990,6 +5040,7 @@ hii
 handler
 hopefully
 hardcode
+held
 runtime
 runtimes
 run
@@ -5296,6 +5347,14 @@ roughly
 raised
 relay
 readable
+requester
+receivers
+releases
+restarted
+ring
+recreated
+released
+race
 Even
 Example
 Extensible
@@ -5582,6 +5641,8 @@ ANNN
 AzzzuuuBB
 ASLR
 Attackers
+Agarwala
+Another
 InsertSort
 Is
 In
@@ -5723,6 +5784,8 @@ IGG
 IAAAdd
 Injection
 IDS
+Instructions
+Immediate
 Yes
 YY
 YYY
@@ -5935,6 +5998,8 @@ gii
 gddpg
 gvvvUU
 gain
+grants
+granularity
 Best
 Basically
 BP
@@ -6074,6 +6139,7 @@ BBF
 BoO
 BN
 Bhll
+Blocks
 quantitative
 queues
 queue
@@ -6286,6 +6352,7 @@ MbL
 MHHHHH
 Mss
 Mq
+Mutexes
 However
 How
 Heapify
@@ -6389,6 +6456,7 @@ Hypertext
 Hn
 Huu
 High
+Hold
 Rigorous
 Rigorously
 Recursion
@@ -6534,6 +6602,7 @@ RJJ
 RXWW
 Roughly
 Reactive
+Ricart
 First
 Fixed
 Fast
@@ -6960,6 +7029,7 @@ Security
 Station
 StS
 Salt
+See
 Notes
 NG
 NK
@@ -7195,6 +7265,7 @@ OP
 Ocbb
 Offline
 ORed
+Otherwise
 Probing
 Peek
 Partition
@@ -7339,6 +7410,7 @@ PVQ
 Progress
 Preservation
 Package
+Preventing
 Given
 Gp
 GGG
@@ -7621,6 +7693,7 @@ UCC
 UII
 UEFI
 Ultimately
+Uncoordinated
 QuickSort
 QeD
 Qq

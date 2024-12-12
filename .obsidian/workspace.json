@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 2/W2N4 - Firewalls.md",
+                "file": "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "W9N1 - Synchronisation"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 2/W2N4 - Firewalls.md",
+                "file": "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for W9N1 - Synchronisation"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 2/W2N4 - Firewalls.md",
+                "file": "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from W9N1 - Synchronisation"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 2/W2N4 - Firewalls.md"
-              }
+                "file": "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of W9N1 - Synchronisation"
             }
           },
           {
@@ -134,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -142,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -166,6 +186,7 @@
   },
   "active": "b932a645beb85be6",
   "lastOpenFiles": [
+    "year_4/distributed_systems/Week 6/W6N1 - Coordination.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
     "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
@@ -191,7 +212,6 @@
     "computer_security/Week 2/W2N4 - Firewalls.md",
     "computer_security/Week 2/W2N3 - HTTP and DNS.md",
     "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
-    "computer_security/Week 2/W2N1 - ARP.md",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "computer_security/Week 10",
