@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1ef7f3b86f50e096",
+        "id": "84989ab4d21814b7",
         "type": "tabs",
         "children": [
           {
-            "id": "b932a645beb85be6",
+            "id": "71e19d2dd81405ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "W9N1 - Synchronisation"
+              "title": "New tab"
             }
           }
         ]
@@ -184,8 +180,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b932a645beb85be6",
+  "active": "71e19d2dd81405ce",
   "lastOpenFiles": [
+    "README.md",
+    "year_3/computer_communication_and_networks/Overview.md",
+    "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
     "year_4/distributed_systems/Week 6/W6N1 - Coordination.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
     "computer_security/Week 9/W9N4 - Cookie policies.md",
@@ -209,9 +208,6 @@
     "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
     "computer_security/Week 2/W2N6 - Intrusion Detection Systems (IDS).md",
     "computer_security/Week 2/W2N5 - Network Address Translation (NAT).md",
-    "computer_security/Week 2/W2N4 - Firewalls.md",
-    "computer_security/Week 2/W2N3 - HTTP and DNS.md",
-    "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "computer_security/Week 10",
