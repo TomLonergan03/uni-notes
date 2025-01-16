@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba9cc96aa0eb154",
+        "id": "08593fff47a36df3",
         "type": "tabs",
         "children": [
           {
-            "id": "3a87fbda215536cc",
+            "id": "8e18c9377ad0533f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,10 +180,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3a87fbda215536cc",
+  "active": "8e18c9377ad0533f",
   "lastOpenFiles": [
-    "year_4/advanced_database_systems/Week 1/W1N1 - Databases overview.md",
     "year_4/compiling_techniques/Week 1/W1N1 - Compilers overview.md",
+    "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
+    "year_4/compiling_techniques/images/w1n2parseTree.png",
+    "year_4/advanced_database_systems/Week 1/W1N1 - Databases overview.md",
     "year_4/compiling_techniques/images/w1n1backend.png",
     "README.md",
     "Pasted image 20250113164636.png",
@@ -215,7 +217,6 @@
     "computer_security/Week 6/W6N3 - Internet censorship.md",
     "computer_security/Week 6/W6N2 - Anonymous communications.md",
     "computer_security/Week 6/W6N1 - TLS.md",
-    "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "computer_security/Week 10",
@@ -226,7 +227,6 @@
     "computer_security/images/w8n5returnToLibc.png",
     "computer_security/images/w8n5StackCanary.png",
     "Untitled.canvas",
-    "elements_of_programming_languages/Week 9",
-    "computer_security/images/w8n3ControlHijacking.png"
+    "elements_of_programming_languages/Week 9"
   ]
 }

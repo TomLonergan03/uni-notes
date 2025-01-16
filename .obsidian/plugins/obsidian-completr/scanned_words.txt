@@ -283,6 +283,9 @@ intermediate
 inconsistent
 inconsistencies
 integrate
+improves
+infrequently
+idioms
 or
 of
 operations
@@ -474,6 +477,7 @@ ordered
 organised
 orJ
 oUU
+optimiser
 there
 that
 than
@@ -756,6 +760,8 @@ traditional
 turn
 ttC
 tB
+tokeniser
+textual
 some
 smaller
 so
@@ -1196,6 +1202,10 @@ syntactically
 semantically
 searches
 simultaneous
+scanner
+semantic
+scheduling
+simplified
 multiple
 matter
 many
@@ -2270,6 +2280,11 @@ assign
 allocates
 aaQ
 atomicity
+automatic
+analyser
+allocation
+approximating
+assemble
 no
 number
 not
@@ -2911,6 +2926,7 @@ Cx
 Cxp
 CSV
 Concurrency
+Compiler
 consider
 compare
 cost
@@ -3350,6 +3366,7 @@ ckRk
 crr
 comma
 complicated
+characters
 larger
 lower
 likely
@@ -3692,6 +3709,8 @@ uW
 uDu
 uMOMN
 uMp
+useless
+unreachable
 for
 focus
 from
@@ -4535,6 +4554,7 @@ validation
 vice
 versa
 voluntarily
+vectorisation
 kinds
 know
 keys
@@ -5212,6 +5232,7 @@ hp
 hFFFff
 hnw
 hfYyE
+hot
 runtime
 runtimes
 run
@@ -5538,6 +5559,8 @@ rad
 rc
 representation
 redundancy
+recognises
+reorders
 Even
 Example
 Extensible
@@ -5675,6 +5698,7 @@ Edinburgh
 EAJ
 Exposed
 Expensive
+Encode
 An
 Asymptotic
 Any
@@ -5835,6 +5859,7 @@ Am
 AIMK
 AUn
 API
+Assemblers
 InsertSort
 Is
 In
@@ -5984,6 +6009,7 @@ Iwt
 IZL
 Ic
 IZ
+Instruction
 Yes
 YY
 YYY
@@ -6205,6 +6231,7 @@ grant
 gMD
 gaAG
 geu
+generators
 Best
 Basically
 BP
@@ -6565,6 +6592,7 @@ Mq
 Mutexes
 MSS
 MZ
+Move
 However
 How
 Heapify
@@ -7079,6 +7107,7 @@ LEE
 LNI
 LXXXXX
 LD
+Linkers
 Stacks
 Sometimes
 So
@@ -7265,6 +7294,7 @@ Sbb
 SZ
 SexU
 SM
+Specialise
 Notes
 NG
 NK
@@ -7505,6 +7535,8 @@ Offline
 ORed
 Otherwise
 OD
+Optimal
+Optimising
 Probing
 Peek
 Partition
@@ -7654,6 +7686,9 @@ Processing
 Propagation
 PKKK
 PBD
+Parsers
+Propagate
+Preprocessors
 Given
 Gp
 GGG
