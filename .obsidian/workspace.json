@@ -11,10 +11,14 @@
             "id": "8e18c9377ad0533f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "W1N2 - SQL"
             }
           }
         ]
@@ -182,6 +186,9 @@
   },
   "active": "8e18c9377ad0533f",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/images/w1n2sqlEvaluationOrder.png",
+    "year_4/advanced_database_systems/images/w1n2relations.png",
+    "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/compiling_techniques/Week 1/W1N1 - Compilers overview.md",
     "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
     "year_4/compiling_techniques/images/w1n2parseTree.png",
@@ -216,7 +223,6 @@
     "computer_security/Week 7/W7N1 - OS concepts.md",
     "computer_security/Week 6/W6N3 - Internet censorship.md",
     "computer_security/Week 6/W6N2 - Anonymous communications.md",
-    "computer_security/Week 6/W6N1 - TLS.md",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "computer_security/Week 10",
@@ -225,7 +231,6 @@
     "computer_security/images/w9n1HttpRequest.png",
     "computer_security/Week 9",
     "computer_security/images/w8n5returnToLibc.png",
-    "computer_security/images/w8n5StackCanary.png",
     "Untitled.canvas",
     "elements_of_programming_languages/Week 9"
   ]

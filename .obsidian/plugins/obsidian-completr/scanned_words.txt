@@ -762,6 +762,7 @@ ttC
 tB
 tokeniser
 textual
+topic
 some
 smaller
 so
@@ -1206,6 +1207,10 @@ scanner
 semantic
 scheduling
 simplified
+schema
+schemas
+sid
+students
 multiple
 matter
 many
@@ -1448,6 +1453,7 @@ mWiVX
 mqmq
 mko
 mmmcccwww
+manipulation
 eventually
 execute
 each
@@ -2285,6 +2291,8 @@ analyser
 allocation
 approximating
 assemble
+age
+ascending
 no
 number
 not
@@ -2737,6 +2745,11 @@ DNz
 DBMS
 Difficult
 DBMSes
+Databases
+DDL
+DML
+DCL
+Database
 Can
 CPU
 Create
@@ -2927,6 +2940,7 @@ Cxp
 CSV
 Concurrency
 Compiler
+CS
 consider
 compare
 cost
@@ -3367,6 +3381,7 @@ crr
 comma
 complicated
 characters
+cid
 larger
 lower
 likely
@@ -3561,6 +3576,8 @@ livelock
 lives
 ld
 lV
+laid
+langauge
 upper
 use
 useful
@@ -5065,6 +5082,7 @@ dVa
 drawbacks
 duplicated
 developer
+dept
 how
 have
 halves
@@ -5561,6 +5579,8 @@ representation
 redundancy
 recognises
 reorders
+relational
+responsible
 Even
 Example
 Extensible
@@ -5699,6 +5719,7 @@ EAJ
 Exposed
 Expensive
 Encode
+Exploration
 An
 Asymptotic
 Any
@@ -5860,6 +5881,7 @@ AIMK
 AUn
 API
 Assemblers
+Attribute
 InsertSort
 Is
 In
@@ -6010,6 +6032,8 @@ IZL
 Ic
 IZ
 Instruction
+Instances
+INF
 Yes
 YY
 YYY
@@ -6232,6 +6256,8 @@ gMD
 gaAG
 geu
 generators
+grade
+grades
 Best
 Basically
 BP
@@ -6461,6 +6487,7 @@ quotes
 qac
 qjz
 qRr
+querying
 MergeSort
 Method
 Merge
@@ -6593,6 +6620,7 @@ Mutexes
 MSS
 MZ
 Move
+Mining
 However
 How
 Heapify
@@ -6849,6 +6877,9 @@ Regional
 Requests
 RTT
 RFFFHH
+Relational
+Relations
+RDBMS
 First
 Fixed
 Fast
@@ -6973,6 +7004,8 @@ FX
 Find
 FSRR
 Flat
+Foundations
+FROM
 Lists
 Linked
 Likewise
@@ -7108,6 +7141,7 @@ LNI
 LXXXXX
 LD
 Linkers
+LIMIT
 Stacks
 Sometimes
 So
@@ -7295,6 +7329,11 @@ SZ
 SexU
 SM
 Specialise
+Structured
+Smith
+Systems
+SELECT
+Sort
 Notes
 NG
 NK
@@ -7537,6 +7576,7 @@ Otherwise
 OD
 Optimal
 Optimising
+ORDER
 Probing
 Peek
 Partition
@@ -7689,6 +7729,7 @@ PBD
 Parsers
 Propagate
 Preprocessors
+Physics
 Given
 Gp
 GGG
@@ -7796,6 +7837,7 @@ GL
 GRPRS
 GFFBK
 GmMu
+Gold
 just
 jgc
 jkk
@@ -8185,6 +8227,7 @@ ysKK
 years
 yc
 yqX
+year
 KKKt
 KO
 Kw
@@ -8544,6 +8587,7 @@ JXX
 Jjj
 JHH
 JKKcr
+Jones
 XO
 XYYI
 XIh
