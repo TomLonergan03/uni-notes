@@ -11,10 +11,14 @@
             "id": "dd91bd9a5f616073",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "W2N4 - Buffer management"
             }
           }
         ]
@@ -182,6 +186,8 @@
   },
   "active": "dd91bd9a5f616073",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/images/w2n4clock.png",
+    "year_4/advanced_database_systems/images/w2n4bufferManager.png",
     "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
     "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
     "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
@@ -203,7 +209,6 @@
     "year_4/compiling_techniques/images/w2n1renfaMThenN.png",
     "year_4/compiling_techniques/images/w2n1renfaMN.png",
     "year_4/compiling_techniques/images/w2n1renfax.png",
-    "year_4/compiling_techniques/images/w2n1recogniser.png",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 2",
@@ -225,7 +230,6 @@
     "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/Week 10/W10N2 - Cross-site request forgery (CSRF).md",
     "computer_security/Week 10/W10N3 - Injection attacks.md",
-    "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
     "computer_security/Week 10",
     "elements_of_programming_languages/Week 10",
     "Untitled.canvas"
