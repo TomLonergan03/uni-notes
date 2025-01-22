@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c5003b05ba5d3500",
+        "id": "9cb3589b05292a53",
         "type": "tabs",
         "children": [
           {
-            "id": "dd91bd9a5f616073",
+            "id": "c1f23a7610d7eb0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
+                "file": "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W2N4 - Buffer management"
+              "title": "W2N5 - Files, pages, and records"
             }
           }
         ]
@@ -184,31 +184,32 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dd91bd9a5f616073",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/images/w2n5varLengthRecordSchema.png",
+    "year_4/advanced_database_systems/images/w2n5varLenRecordsImplementation.png",
+    "year_4/advanced_database_systems/images/w2n5varRecordFieldOffsets.png",
+    "year_4/advanced_database_systems/images/w2n5varRecordSymbols.png",
+    "year_4/advanced_database_systems/images/w2n5fixedLengthRecord.png",
+    "year_4/advanced_database_systems/images/w2n5slottedPages.png",
+    "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
+    "year_4/advanced_database_systems/images/w2n5fixedLengthPacked.png",
+    "year_4/advanced_database_systems/images/w2n5pageLayout.png",
+    "year_4/advanced_database_systems/images/w2n5tableRepresentations.png",
+    "year_4/advanced_database_systems/images/w2n5fileAndIndexManagement.png",
+    "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
     "year_4/advanced_database_systems/images/w2n4clock.png",
-    "year_4/advanced_database_systems/images/w2n4bufferManager.png",
     "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
     "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
-    "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
-    "year_4/advanced_database_systems/images/w2n3diskSpaceManagement.png",
     "year_4/computer_architecture/Week 10/W10N2 - Main memory.md",
     "year_3/operating_systems/Week 7/W7N1 - Secondary storage.md",
     "year_3/operating_systems/Overview.md",
     "year_4/compiling_techniques/Week 2/W2N1 - Automatic lexer generation.md",
     "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
-    "year_4/compiling_techniques/images/w2n1NfaToDfaResult.png",
-    "year_4/compiling_techniques/images/w2n1nfaToDfa.png",
-    "year_4/compiling_techniques/images/w2n1nfa.png",
     "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
     "year_4/advanced_database_systems/Week 1/W1N3 - Relational algebra.md",
     "year_4/advanced_database_systems/Week 2/W2N1 - Layers of a DBMS.md",
-    "year_4/compiling_techniques/images/w2n1renfam.png",
-    "year_4/compiling_techniques/images/w2n1renfaM+.png",
     "year_4/compiling_techniques/Week 1/W1N1 - Compilers overview.md",
-    "year_4/compiling_techniques/images/w2n1renfaMThenN.png",
-    "year_4/compiling_techniques/images/w2n1renfaMN.png",
-    "year_4/compiling_techniques/images/w2n1renfax.png",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 2",
@@ -229,7 +230,6 @@
     "computer_security/Week 8/W8N3 - Buffer overruns.md",
     "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/Week 10/W10N2 - Cross-site request forgery (CSRF).md",
-    "computer_security/Week 10/W10N3 - Injection attacks.md",
     "computer_security/Week 10",
     "elements_of_programming_languages/Week 10",
     "Untitled.canvas"

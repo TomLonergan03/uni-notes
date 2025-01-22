@@ -308,6 +308,9 @@ inodes
 inode
 indirect
 isolates
+ie
+ihhd
+iLa
 or
 of
 operations
@@ -519,6 +522,7 @@ oAz
 offset
 oldest
 onboard
+oihm
 there
 that
 than
@@ -831,6 +835,12 @@ triple
 trap
 tape
 tiny
+txo
+tko
+tTd
+thrT
+tKy
+tD
 some
 smaller
 so
@@ -1326,6 +1336,11 @@ strobe
 signals
 stalls
 saving
+sy
+sufficient
+searching
+slot
+slotted
 multiple
 matter
 many
@@ -1591,6 +1606,7 @@ mEqqqj
 measuring
 memories
 muxed
+mJx
 eventually
 execute
 each
@@ -1917,6 +1933,10 @@ examines
 emulate
 exhibits
 exposes
+eRf
+eQV
+eqV
+eMF
 bounded
 by
 below
@@ -2139,6 +2159,8 @@ boundary
 bursts
 batch
 banks
+boWO
+bitmap
 above
 asymptotically
 as
@@ -2514,6 +2536,9 @@ aYY
 arrives
 alphanumeric
 afterwards
+aklB
+ao
+aN
 no
 number
 not
@@ -2670,6 +2695,8 @@ nIy
 nZ
 nWyyi
 notifications
+nk
+njD
 what
 ways
 we
@@ -3031,6 +3058,8 @@ DTapb
 Direct
 DMA
 DRAM
+DuzTH
+Doubly
 Can
 CPU
 Create
@@ -3234,6 +3263,10 @@ Cmm
 CMs
 Cons
 CAS
+CHC
+Cpa
+Cb
+CmA
 consider
 compare
 cost
@@ -3714,6 +3747,10 @@ chip
 counter
 couple
 consumption
+cp
+ct
+cxG
+cjBY
 larger
 lower
 likely
@@ -3930,6 +3967,7 @@ ls
 latencies
 loses
 leaks
+lol
 upper
 use
 useful
@@ -4097,6 +4135,11 @@ uuugg
 uc
 uGF
 userspace
+uWu
+uf
+ua
+updating
+unpacked
 for
 focus
 from
@@ -4345,6 +4388,10 @@ filesystem
 formatted
 flops
 freeing
+fSX
+fLLM
+fer
+fXk
 There
 Typically
 The
@@ -4521,6 +4568,8 @@ TMZU
 TWWW
 Threads
 Trap
+TFFFr
+Tables
 possible
 purposes
 performed
@@ -4894,6 +4943,7 @@ pulling
 pulled
 precharge
 physically
+packed
 various
 values
 value
@@ -5150,6 +5200,7 @@ kllL
 kll
 kZSS
 khX
+kzk
 We
 Worst
 When
@@ -5269,6 +5320,11 @@ WQY
 WWWUMLNm
 WrL
 Writing
+WMBc
+WQW
+WF
+WvtG
+Wh
 definition
 different
 disk
@@ -5604,6 +5660,9 @@ decoder
 decoders
 dominated
 destroy
+dUW
+dsD
+deleting
 how
 have
 halves
@@ -5785,6 +5844,10 @@ hEI
 hvh
 hierarchical
 hypervisor
+hEe
+hUc
+hfsI
+hvR
 runtime
 runtimes
 run
@@ -6150,6 +6213,7 @@ refreshed
 refreshes
 refresh
 relies
+rearranging
 Even
 Example
 Extensible
@@ -6310,6 +6374,8 @@ EUo
 Euu
 EBNF
 Everything
+EqQ
+ELN
 An
 Asymptotic
 Any
@@ -6653,6 +6719,8 @@ IJLN
 Ii
 IUI
 IDATW
+Io
+Index
 Yes
 YY
 YYY
@@ -6904,6 +6972,7 @@ gge
 gxsbnG
 guest
 guests
+gaps
 Best
 Basically
 BP
@@ -7059,6 +7128,7 @@ BlcsC
 BlsO
 Byy
 Binary
+BvW
 quantitative
 queues
 queue
@@ -7160,6 +7230,7 @@ qD
 qld
 quantum
 quantas
+qk
 MergeSort
 Method
 Merge
@@ -7308,6 +7379,7 @@ MDF
 MNNvtt
 My
 MMU
+MCC
 However
 How
 Heapify
@@ -7432,6 +7504,8 @@ HQ
 HDqxx
 Hmm
 HJq
+Hx
+Heap
 Rigorous
 Rigorously
 Recursion
@@ -7612,6 +7686,7 @@ Reads
 Refresh
 Rows
 Row
+RiIa
 First
 Fixed
 Fast
@@ -7757,6 +7832,10 @@ FTEu
 FvV
 FQm
 FIFO
+FLl
+FkL
+FFFdY
+Fetch
 Lists
 Linked
 Likewise
@@ -8134,6 +8213,10 @@ Sockets
 Signals
 SRTN
 Spinlocks
+SOl
+Scan
+Sorted
+Slotted
 Notes
 NG
 NK
@@ -8270,6 +8353,7 @@ NjL
 NWKK
 NBH
 NVRAM
+Nvf
 Obsidian
 OOO
 OO
@@ -8415,6 +8499,8 @@ Oa
 OfG
 OJ
 OSes
+Okm
+OTl
 Probing
 Peek
 Partition
@@ -8581,6 +8667,9 @@ PSS
 PuMMKK
 Pipes
 Preemptive
+Pwm
+Pcf
+Pages
 Given
 Gp
 GGG
@@ -8697,6 +8786,8 @@ Gdq
 Gww
 GeU
 GV
+GFH
+Gi
 just
 jgc
 jkk
@@ -8925,6 +9016,10 @@ UdH
 UUGG
 UBF
 UUUU
+Ufa
+UuqJ
+UQdIR
+Ud
 QuickSort
 QeD
 Qq
@@ -9039,6 +9134,8 @@ QRR
 QWW
 QEQ
 QXP
+QbD
+Qjj
 you
 ys
 yyy
@@ -9151,6 +9248,9 @@ ya
 ydrr
 ysCCCnn
 yield
+yMH
+yhh
+yCE
 KKKt
 KO
 Kw
@@ -9254,6 +9354,8 @@ KSu
 KAD
 KSS
 KI
+KdY
+KU
 VVVl
 VN
 VSS
@@ -9359,6 +9461,10 @@ VQQ
 VMM
 Virtualisation
 Volatile
+VdtC
+VTi
+Va
+Variable
 ZR
 Zx
 ZD
@@ -9457,6 +9563,7 @@ ZKJ
 ZnKD
 ZqQ
 ZTTL
+ZGz
 Ji
 JLL
 Jw
@@ -9567,6 +9674,8 @@ Jx
 JWy
 JF
 JsssAAA
+JoG
+Joo
 XO
 XYYI
 XIh
@@ -9653,6 +9762,7 @@ XfF
 XWW
 XVV
 Xee
+Xhm
 zo
 zjR
 zx
@@ -9753,6 +9863,9 @@ zFFFNvNN
 zuII
 zDu
 zY
+zc
+zohdl
+zgG
 xxx
 xe
 xfs
@@ -9841,6 +9954,8 @@ xbW
 xh
 xiw
 xff
+xFn
+xcS
 ÖQ
 üh
 öh
