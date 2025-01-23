@@ -523,6 +523,7 @@ offset
 oldest
 onboard
 oihm
+offsets
 there
 that
 than
@@ -1341,6 +1342,8 @@ sufficient
 searching
 slot
 slotted
+stating
+shift
 multiple
 matter
 many
@@ -1937,6 +1940,7 @@ eRf
 eQV
 eqV
 eMF
+escaped
 bounded
 by
 below
@@ -2539,6 +2543,8 @@ afterwards
 aklB
 ao
 aN
+ambiguous
+ambiguities
 no
 number
 not
@@ -3751,6 +3757,7 @@ cp
 ct
 cxG
 cjBY
+catalog
 larger
 lower
 likely
@@ -4392,6 +4399,7 @@ fSX
 fLLM
 fer
 fXk
+four
 There
 Typically
 The
@@ -4944,6 +4952,9 @@ pulled
 precharge
 physically
 packed
+periodically
+push
+pop
 various
 values
 value
@@ -5663,6 +5674,10 @@ destroy
 dUW
 dsD
 deleting
+defragment
+defragmented
+deliminated
+deeper
 how
 have
 halves
@@ -6214,6 +6229,7 @@ refreshes
 refresh
 relies
 rearranging
+rewriting
 Even
 Example
 Extensible
@@ -6376,6 +6392,7 @@ EBNF
 Everything
 EqQ
 ELN
+Easy
 An
 Asymptotic
 Any
@@ -6554,6 +6571,7 @@ AJ
 AAaWW
 Aqoo
 AaVV
+Ambiguity
 InsertSort
 Is
 In
@@ -7687,6 +7705,8 @@ Refresh
 Rows
 Row
 RiIa
+Resolving
+Rigid
 First
 Fixed
 Fast
@@ -7990,6 +8010,7 @@ LNr
 LFf
 Lkf
 Ltvv
+Leftmost
 Stacks
 Sometimes
 So
@@ -8217,6 +8238,8 @@ SOl
 Scan
 Sorted
 Slotted
+Shift
+Supports
 Notes
 NG
 NK

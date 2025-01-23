@@ -14,7 +14,7 @@ funcall&::=ID\ '('\ [\ ID\ (\ ','\ ID\ )\ *\ ]\ ')'\\
 &\text{We can eliminate the option first:}\\
 funcall&::=ID\ '('\ arglist\ ')'\\
 arglist&::=ID\ (\ ','\ ID\ )\ *\ |\ \epsilon\\
-&\text{then we can elimate the closure:}\\
+&\text{then we can eliminate the closure:}\\
 funcall&::=ID\ '('\ arglist\ ')'\\
 arglist&::=ID\ argrep\ |\ \epsilon\\
 argrep&::=','\ ID\ argrep\ |\ \epsilon
