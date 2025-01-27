@@ -311,6 +311,7 @@ isolates
 ie
 ihhd
 iLa
+iteration
 or
 of
 operations
@@ -6230,6 +6231,7 @@ refresh
 relies
 rearranging
 rewriting
+rewrites
 Even
 Example
 Extensible

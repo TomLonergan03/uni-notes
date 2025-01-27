@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "15869e3664ee7437",
+            "id": "1ad4ea7ede4c7fe6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "year_4/compiling_techniques/Week 2/W2N4 - Bottom-up parsing.md",
+                "file": "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W2N4 - Bottom-up parsing"
+              "title": "W3N1 - Abstract Syntax"
             }
           }
         ]
@@ -184,10 +184,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "15869e3664ee7437",
+  "active": "1ad4ea7ede4c7fe6",
   "lastOpenFiles": [
-    "year_4/compiling_techniques/Week 2/W2N3 - Ambiguity.md",
+    "w3n1abstractSyntaxTree.png",
+    "year_4/compiling_techniques/images/w3n1concreteSyntaxTree.png",
     "year_4/compiling_techniques/Week 2/W2N4 - Bottom-up parsing.md",
+    "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
+    "year_4/compiling_techniques/Week 3",
+    "year_4/compiling_techniques/Week 2/W2N3 - Ambiguity.md",
     "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
     "year_4/advanced_database_systems/Week 1/W1N3 - Relational algebra.md",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
@@ -201,7 +205,6 @@
     "year_4/advanced_database_systems/images/w2n5fixedLengthPacked.png",
     "year_4/advanced_database_systems/images/w2n5pageLayout.png",
     "year_4/advanced_database_systems/images/w2n5tableRepresentations.png",
-    "year_4/advanced_database_systems/images/w2n5fileAndIndexManagement.png",
     "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
     "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
     "year_4/computer_architecture/Week 10/W10N2 - Main memory.md",
@@ -228,10 +231,7 @@
     "computer_security/Week 9/W9N3 - Same origin policy.md",
     "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
-    "computer_security/Week 8/W8N3 - Buffer overruns.md",
-    "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/Week 10",
-    "elements_of_programming_languages/Week 10",
     "Untitled.canvas"
   ]
 }
