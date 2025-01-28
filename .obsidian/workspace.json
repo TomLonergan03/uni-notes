@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1ad4ea7ede4c7fe6",
+            "id": "a3f3bd369f561b1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
+                "file": "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W3N1 - Abstract Syntax"
+              "title": "W3N2 - Indexes"
             }
           }
         ]
@@ -184,27 +184,30 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1ad4ea7ede4c7fe6",
+  "active": "a3f3bd369f561b1c",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/images/w3n2clusteredVsUnclustered.png",
+    "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
+    "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
+    "Pasted image 20250128164746.png",
+    "year_4/advanced_database_systems/images/w3n2indexEntries.png",
+    "year_4/advanced_database_systems/images/w3n2index.png",
+    "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
+    "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
+    "year_4/advanced_database_systems/Week 3",
     "w3n1abstractSyntaxTree.png",
     "year_4/compiling_techniques/images/w3n1concreteSyntaxTree.png",
     "year_4/compiling_techniques/Week 2/W2N4 - Bottom-up parsing.md",
-    "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
     "year_4/compiling_techniques/Week 3",
     "year_4/compiling_techniques/Week 2/W2N3 - Ambiguity.md",
     "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
     "year_4/advanced_database_systems/Week 1/W1N3 - Relational algebra.md",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
-    "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/advanced_database_systems/images/w2n5varLengthRecordSchema.png",
     "year_4/advanced_database_systems/images/w2n5varLenRecordsImplementation.png",
     "year_4/advanced_database_systems/images/w2n5varRecordFieldOffsets.png",
     "year_4/advanced_database_systems/images/w2n5varRecordSymbols.png",
     "year_4/advanced_database_systems/images/w2n5fixedLengthRecord.png",
-    "year_4/advanced_database_systems/images/w2n5slottedPages.png",
-    "year_4/advanced_database_systems/images/w2n5fixedLengthPacked.png",
-    "year_4/advanced_database_systems/images/w2n5pageLayout.png",
-    "year_4/advanced_database_systems/images/w2n5tableRepresentations.png",
     "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
     "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
     "year_4/computer_architecture/Week 10/W10N2 - Main memory.md",
@@ -229,9 +232,6 @@
     "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
     "year_4/distributed_systems/Week 6/W6N1 - Coordination.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
-    "computer_security/Week 9/W9N4 - Cookie policies.md",
-    "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
-    "computer_security/Week 10",
     "Untitled.canvas"
   ]
 }

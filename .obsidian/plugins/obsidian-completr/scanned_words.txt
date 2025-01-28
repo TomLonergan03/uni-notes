@@ -312,6 +312,9 @@ ie
 ihhd
 iLa
 iteration
+inherits
+inserts
+indexes
 or
 of
 operations
@@ -843,6 +846,9 @@ tTd
 thrT
 tKy
 tD
+trends
+touches
+touched
 some
 smaller
 so
@@ -1345,6 +1351,7 @@ slot
 slotted
 stating
 shift
+shifting
 multiple
 matter
 many
@@ -1942,6 +1949,7 @@ eQV
 eqV
 eMF
 escaped
+estimated
 bounded
 by
 below
@@ -2546,6 +2554,7 @@ ao
 aN
 ambiguous
 ambiguities
+appended
 no
 number
 not
@@ -3274,6 +3283,8 @@ CHC
 Cpa
 Cb
 CmA
+Cost
+Clustered
 consider
 compare
 cost
@@ -3759,6 +3770,10 @@ ct
 cxG
 cjBY
 catalog
+chains
+compactions
+classification
+clustered
 larger
 lower
 likely
@@ -3976,6 +3991,7 @@ latencies
 loses
 leaks
 lol
+literal
 upper
 use
 useful
@@ -4148,6 +4164,8 @@ uf
 ua
 updating
 unpacked
+unnecessary
+unclustered
 for
 focus
 from
@@ -4401,6 +4419,7 @@ fLLM
 fer
 fXk
 four
+fall
 There
 Typically
 The
@@ -4579,6 +4598,7 @@ Threads
 Trap
 TFFFr
 Tables
+Tree
 possible
 purposes
 performed
@@ -4956,6 +4976,7 @@ packed
 periodically
 push
 pop
+prefetching
 various
 values
 value
@@ -6741,6 +6762,7 @@ IUI
 IDATW
 Io
 Index
+Indexes
 Yes
 YY
 YYY
@@ -7400,6 +7422,7 @@ MNNvtt
 My
 MMU
 MCC
+MLIR
 However
 How
 Heapify
@@ -7709,6 +7732,8 @@ Row
 RiIa
 Resolving
 Rigid
+Read
+Range
 First
 Fixed
 Fast
@@ -8242,6 +8267,9 @@ Sorted
 Slotted
 Shift
 Supports
+Scanning
+Searching
+Search
 Notes
 NG
 NK
@@ -8695,6 +8723,8 @@ Preemptive
 Pwm
 Pcf
 Pages
+Properties
+Primary
 Given
 Gp
 GGG
@@ -9981,6 +10011,7 @@ xiw
 xff
 xFn
 xcS
+xDSL
 ÖQ
 üh
 öh

@@ -37,7 +37,7 @@ If fields in a record do not have a consistent length, we need to keep track of 
 ![[w2n5slottedPages.png]]
 The most common layout scheme is **slotted pages**. A slot directory maps slots to the record's starting position offset, and records are stored at the end of the page. On deletes, we set the slot offset to -1 and only delete it if it is the last slot, and either fill the empty space from the record immediately, or periodically defragment the space. On insert, it finds a slot with offset -1 or creates a slot if there are none available, then allocates exactly the right amount of space. If there is not enough contiguous space available the page can be defragmented.
 # Record layout
-We don't need to store schema information with each record, as it is in the system catalog. Some metadata is required, such as a bitmap stating which values are `NULL`, as there is no way to distinguish e.g. the empty string "" from a null string.
+We don't need to store schema information with each record, as it is in the system catalogue. Some metadata is required, such as a bitmap stating which values are `NULL`, as there is no way to distinguish e.g. the empty string "" from a null string.
 ## Fixed length records
 ![[w2n5fixedLengthRecord.png]]
 If every field in a record has a fixed length, we can access a field just by adding the field offset to the base address.
