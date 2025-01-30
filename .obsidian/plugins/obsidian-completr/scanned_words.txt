@@ -319,6 +319,10 @@ iOw
 ifb
 ip
 iiiizz
+ilj
+iFwO
+iPk
+iI
 or
 of
 operations
@@ -539,6 +543,7 @@ occupancy
 owww
 orr
 oY
+oyL
 there
 that
 than
@@ -868,6 +873,7 @@ trt
 td
 tQG
 truncation
+tIf
 some
 smaller
 so
@@ -1377,6 +1383,8 @@ subtree
 sibling
 szk
 separator
+sfAA
+sBV
 multiple
 matter
 many
@@ -1649,6 +1657,7 @@ merge
 mh
 mXk
 mPL
+mcu
 eventually
 execute
 each
@@ -1985,6 +1994,9 @@ evvy
 eYA
 eYpQ
 eeek
+eQM
+eNT
+eoKJ
 bounded
 by
 below
@@ -2211,6 +2223,7 @@ boWO
 bitmap
 biPT
 bbH
+bYg
 above
 asymptotically
 as
@@ -2595,6 +2608,7 @@ appended
 aIV
 aDQ
 ak
+aL
 no
 number
 not
@@ -2754,6 +2768,9 @@ notifications
 nk
 njD
 nhnS
+nZI
+nNa
+nYbS
 what
 ways
 we
@@ -2939,6 +2956,9 @@ wastes
 waste
 wwwmm
 wU
+wyY
+wlJ
+wZj
 Defined
 Different
 Datastructures
@@ -3332,6 +3352,8 @@ Cost
 Clustered
 CEnE
 CUUU
+CH
+CX
 consider
 compare
 cost
@@ -3827,6 +3849,7 @@ causes
 capacities
 completely
 compressed
+cz
 larger
 lower
 likely
@@ -4050,6 +4073,8 @@ lZq
 lose
 lvjj
 lrauIU
+lAYEY
+lVb
 upper
 use
 useful
@@ -4229,6 +4254,11 @@ umZ
 underflow
 ukww
 urln
+uXW
+uykJ
+uVv
+uZ
+uv
 for
 focus
 from
@@ -4491,6 +4521,7 @@ fanout
 fan
 fffFGG
 feK
+fv
 There
 Typically
 The
@@ -4676,6 +4707,8 @@ TJ
 ThK
 TI
 TFUR
+TMSw
+TJB
 possible
 purposes
 performed
@@ -5214,6 +5247,9 @@ vOLL
 vc
 vee
 vi
+vpM
+vz
+vKp
 kinds
 know
 keys
@@ -5324,6 +5360,7 @@ khX
 kzk
 kFf
 kIP
+kj
 We
 Worst
 When
@@ -5450,6 +5487,8 @@ WvtG
 Wh
 WEQT
 WVeU
+WnnV
+WCD
 definition
 different
 disk
@@ -5797,6 +5836,7 @@ degradation
 dvv
 dTQ
 deleted
+dPo
 how
 have
 halves
@@ -5988,6 +6028,7 @@ hsiu
 hanging
 hX
 hsFX
+hkq
 runtime
 runtimes
 run
@@ -6364,6 +6405,7 @@ redistribute
 rTD
 redistributed
 rob
+rS
 Even
 Example
 Extensible
@@ -6532,6 +6574,7 @@ Eqk
 EQR
 ESrLL
 EQL
+Esu
 An
 Asymptotic
 Any
@@ -6887,6 +6930,8 @@ Index
 Indexes
 ISAM
 IeQC
+IDAThE
+IKD
 Yes
 YY
 YYY
@@ -6990,6 +7035,9 @@ YXXXYY
 Yfgg
 Yo
 YX
+Yr
+Ygg
+YO
 given
 graph
 general
@@ -7306,6 +7354,8 @@ Binary
 BvW
 BHn
 Bajj
+BfWqe
+BHt
 quantitative
 queues
 queue
@@ -7414,6 +7464,7 @@ qU
 quite
 qfavd
 qkg
+qT
 MergeSort
 Method
 Merge
@@ -7569,6 +7620,8 @@ Mfat
 MZF
 Mxn
 MOM
+MNf
+MtwU
 However
 How
 Heapify
@@ -7698,6 +7751,9 @@ Heap
 Has
 Height
 HQS
+HXR
+Hin
+HmZz
 Rigorous
 Rigorously
 Recursion
@@ -7886,6 +7942,9 @@ Range
 RSSm
 RVOhp
 RX
+RyV
+RiZ
+RYk
 First
 Fixed
 Fast
@@ -8039,6 +8098,8 @@ FOOO
 FeY
 FQT
 FVB
+FCs
+FHf
 Lists
 Linked
 Likewise
@@ -8202,6 +8263,7 @@ LZZZkkksssB
 LII
 LsssZZ
 Le
+LOF
 Stacks
 Sometimes
 So
@@ -8438,6 +8500,7 @@ SWH
 SCu
 SnD
 Suffix
+SIj
 Notes
 NG
 NK
@@ -8580,6 +8643,7 @@ NMP
 NrgV
 Nym
 NEQT
+Nvju
 Obsidian
 OOO
 OO
@@ -8732,6 +8796,7 @@ Offers
 OdP
 OLLD
 Optimisations
+OAA
 Probing
 Peek
 Partition
@@ -8909,6 +8974,9 @@ PkN
 Ppc
 PxKuua
 Prefix
+PrFG
+PEG
+Pog
 Given
 Gp
 GGG
@@ -9030,6 +9098,10 @@ Gi
 GQT
 GE
 Gc
+Gwm
+GN
+GSdx
+Gq
 just
 jgc
 jkk
@@ -9134,6 +9206,10 @@ jv
 job
 jD
 juee
+jvE
+jI
+jB
+jk
 Using
 UEGGG
 UF
@@ -9273,6 +9349,8 @@ UUk
 Uwt
 Umwz
 Udv
+ULF
+UpT
 QuickSort
 QeD
 Qq
@@ -9390,6 +9468,8 @@ QXP
 QbD
 Qjj
 QWo
+QLA
+Qtl
 you
 ys
 yyy
@@ -9511,6 +9591,7 @@ yai
 yQ
 yih
 yyyz
+ycs
 KKKt
 KO
 Kw
@@ -9621,6 +9702,10 @@ KQT
 KQm
 KP
 KIIQ
+Kl
+Klx
+Kgg
+KlJ
 VVVl
 VN
 VSS
@@ -9738,6 +9823,7 @@ VUUUUEQ
 VXtj
 VOO
 VWWC
+VVfv
 ZR
 Zx
 ZD
@@ -9840,6 +9926,10 @@ ZGz
 ZMUU
 ZGN
 ZFF
+ZqJ
+ZJhutD
+ZWAa
+ZWm
 Ji
 JLL
 Jw
@@ -9960,6 +10050,7 @@ JDBa
 JR
 JzI
 Jj
+JrV
 XO
 XYYI
 XIh
@@ -10052,6 +10143,8 @@ XRU
 XBW
 Xp
 XdB
+XK
+XW
 zo
 zjR
 zx
@@ -10158,6 +10251,11 @@ zgG
 zzp
 zzzDQ
 zK
+zGkH
+zaX
+zqS
+zgzS
+zdl
 xxx
 xe
 xfs
@@ -10252,6 +10350,10 @@ xDSL
 xwB
 xgV
 xBl
+xOp
+xNWC
+xFJ
+xGW
 ÖQ
 üh
 öh

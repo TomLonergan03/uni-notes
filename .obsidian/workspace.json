@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4bb639d305d77215",
+        "id": "e1a867e8ae9bcc93",
         "type": "tabs",
         "children": [
           {
-            "id": "ab0e0fd5743ee3a3",
+            "id": "4488a901cc9a66b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "year_4/advanced_database_systems/images/w3n4extensibleHashing.png"
+              },
+              "icon": "lucide-image",
+              "title": "w3n4extensibleHashing"
             }
           }
         ]
@@ -73,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 256.5
   },
   "right": {
     "id": "b2f267aedf74c740",
@@ -180,19 +182,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ab0e0fd5743ee3a3",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
+    "year_4/advanced_database_systems/images/w3n4extensibleHashingEx4.png",
+    "year_4/advanced_database_systems/images/w3n4extensibleHashingEx3.png",
+    "year_4/advanced_database_systems/images/w3n4extensibleHashingEx2.png",
+    "year_4/advanced_database_systems/images/w3n4extensibleHashingEx1.png",
+    "year_4/advanced_database_systems/images/w3n4extensibleHashing.png",
+    "year_4/advanced_database_systems/images/w3n4chainedHashTable.png",
     "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
     "year_4/advanced_database_systems/images/w3n3suffixTruncationBefore.png",
     "year_4/advanced_database_systems/images/w3n3suffixTruncationAfter.png",
     "year_4/advanced_database_systems/images/w3n3prefixCompression.png",
     "year_4/advanced_database_systems/images/w3n3variantA.png",
-    "year_4/advanced_database_systems/images/w3n3varLengthKeys.png",
-    "year_4/advanced_database_systems/images/w3n3b+DeleteEx6.png",
-    "year_4/advanced_database_systems/images/w3n3b+DeleteEx5.png",
-    "year_4/advanced_database_systems/images/w3n3b+DeleteEx4.png",
-    "year_4/advanced_database_systems/images/w3n3b+DeleteEx3.png",
-    "year_4/advanced_database_systems/images/w3n3b+DeleteEx2.png",
     "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
     "README.md",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
@@ -226,7 +229,6 @@
     "year_4/advanced_database_systems",
     "year_3/computer_communication_and_networks/Overview.md",
     "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
-    "year_4/distributed_systems/Week 6/W6N1 - Coordination.md",
     "Untitled.canvas"
   ]
 }
