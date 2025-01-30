@@ -9,7 +9,7 @@ Indexes speed up searches, at the cost of adding overhead for inserting, updatin
 ![[w3n2index.png]]
 An index entry $k^*$ consists of the key $k$, and some other data:
 ![[w3n2indexEntries.png]]
-- Variant A stores the entire record in the index file. To avoid redundant records, at most one index on a table can use this method.
+- Variant A stores the entire record in the index file. To avoid redundant records, at most one index on a table can use this method. ^055a12
 - Variants B and C use record IDs (`rid`s) to point to the record in a heap file.
 # Index classification
 Indexes can be:

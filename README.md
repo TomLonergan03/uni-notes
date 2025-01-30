@@ -7,5 +7,7 @@ Courses:
 	- [[year_3/elements_of_programming_languages/Week 1/W1N1 - Intro|Elements of Programming Languages]]
 	- [[year_3/operating_systems/Overview|Operating Systems]]
 - Year 4
+	- [[W1N1 - Databases overview|Advanced Database Systems]]
+	- [[W1N1 - Compilers overview|Compiling Techniques]]
 	- [[W1N1 - Principles of computer architecture|Computer Architecture and Design]]
 	- [[W1N1 - Distributed systems|Distributed Systems]]
