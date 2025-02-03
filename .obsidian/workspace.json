@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e1a867e8ae9bcc93",
+        "id": "c1465f72c370705a",
         "type": "tabs",
         "children": [
           {
-            "id": "4488a901cc9a66b2",
+            "id": "8d163e997be9e994",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "year_4/advanced_database_systems/images/w3n4extensibleHashing.png"
-              },
-              "icon": "lucide-image",
-              "title": "w3n4extensibleHashing"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -38,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -184,22 +183,25 @@
   },
   "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
+    "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
     "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
+    "year_4/compiling_techniques/Week 4",
+    "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
+    "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
+    "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
+    "year_4/advanced_database_systems/images/w3n4extensibleHashing.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx4.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx3.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx2.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx1.png",
-    "year_4/advanced_database_systems/images/w3n4extensibleHashing.png",
     "year_4/advanced_database_systems/images/w3n4chainedHashTable.png",
-    "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
     "year_4/advanced_database_systems/images/w3n3suffixTruncationBefore.png",
     "year_4/advanced_database_systems/images/w3n3suffixTruncationAfter.png",
     "year_4/advanced_database_systems/images/w3n3prefixCompression.png",
     "year_4/advanced_database_systems/images/w3n3variantA.png",
-    "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
     "README.md",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
-    "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
     "year_4/advanced_database_systems/Week 3",
@@ -214,7 +216,6 @@
     "year_3/operating_systems/Week 7/W7N1 - Secondary storage.md",
     "year_3/operating_systems/Overview.md",
     "year_4/compiling_techniques/Week 2/W2N1 - Automatic lexer generation.md",
-    "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
     "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
     "year_4/advanced_database_systems/Week 2/W2N1 - Layers of a DBMS.md",
     "year_4/compiling_techniques/Week 1/W1N1 - Compilers overview.md",
@@ -226,7 +227,6 @@
     "year_4/compiling_techniques/Week 1",
     "year_4/advanced_database_systems/Week 1",
     "year_4/compiling_techniques",
-    "year_4/advanced_database_systems",
     "year_3/computer_communication_and_networks/Overview.md",
     "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
     "Untitled.canvas"
