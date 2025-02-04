@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1465f72c370705a",
+        "id": "bbff7c6a5e5823b4",
         "type": "tabs",
         "children": [
           {
-            "id": "8d163e997be9e994",
+            "id": "581c2c8140e532c6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,14 +181,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "245016979c3189b3",
+  "active": "581c2c8140e532c6",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
+    "year_4/advanced_database_systems/images/w4n2externalHashingRehashing.png",
+    "year_4/advanced_database_systems/images/w4n2externalHashingPartition.png",
+    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
+    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md~",
+    "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
+    "year_4/advanced_database_systems/images/w4n1nWayExternalMerge.png",
+    "year_4/advanced_database_systems/images/w4n1twoWayExternalMerge.png",
+    "README.md",
+    "year_4/advanced_database_systems/Week 4",
     "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
     "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
     "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
     "year_4/compiling_techniques/Week 4",
     "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
-    "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
     "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
     "year_4/advanced_database_systems/images/w3n4extensibleHashing.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx4.png",
@@ -196,11 +205,6 @@
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx2.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx1.png",
     "year_4/advanced_database_systems/images/w3n4chainedHashTable.png",
-    "year_4/advanced_database_systems/images/w3n3suffixTruncationBefore.png",
-    "year_4/advanced_database_systems/images/w3n3suffixTruncationAfter.png",
-    "year_4/advanced_database_systems/images/w3n3prefixCompression.png",
-    "year_4/advanced_database_systems/images/w3n3variantA.png",
-    "README.md",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
@@ -221,14 +225,9 @@
     "year_4/compiling_techniques/Week 1/W1N1 - Compilers overview.md",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 2",
-    "year_4/advanced_database_systems/Week 1/W1N1 - Databases overview.md",
     "year_4/advanced_database_systems/images",
     "year_4/compiling_techniques/images",
     "year_4/compiling_techniques/Week 1",
-    "year_4/advanced_database_systems/Week 1",
-    "year_4/compiling_techniques",
-    "year_3/computer_communication_and_networks/Overview.md",
-    "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
     "Untitled.canvas"
   ]
 }
