@@ -325,6 +325,7 @@ iPk
 iI
 initially
 ideal
+iter
 or
 of
 operations
@@ -881,6 +882,7 @@ truncation
 tIf
 technique
 traverse
+traverses
 some
 smaller
 so
@@ -1400,6 +1402,7 @@ shrinks
 ssS
 sqw
 sjbr
+shadows
 multiple
 matter
 many
@@ -2016,6 +2019,8 @@ eoKJ
 effectively
 evenly
 external
+expr
+enforces
 bounded
 by
 below
@@ -2245,6 +2250,7 @@ bbH
 bYg
 buckets
 bucket
+builder
 above
 asymptotically
 as
@@ -2630,6 +2636,7 @@ aIV
 aDQ
 ak
 aL
+analyses
 no
 number
 not
@@ -3380,6 +3387,7 @@ CX
 Czx
 CrS
 Ccq
+CallExpr
 consider
 compare
 cost
@@ -3884,6 +3892,9 @@ consumed
 cGxb
 cSSa
 cfj
+checker
+ctx
+conforms
 larger
 lower
 likely
@@ -4565,6 +4576,7 @@ fan
 fffFGG
 feK
 fv
+func
 There
 Typically
 The
@@ -5146,6 +5158,8 @@ progress
 prepare
 precedes
 pieces
+putting
+premises
 various
 values
 value
@@ -5306,6 +5320,7 @@ vKp
 vd
 vG
 vQJtUUu
+visitors
 kinds
 know
 keys
@@ -5898,6 +5913,7 @@ degrade
 doubling
 dbZ
 dCk
+decl
 how
 have
 halves
@@ -6474,6 +6490,7 @@ rehash
 restore
 rehashing
 respect
+reflection
 Even
 Example
 Extensible
@@ -7009,6 +7026,7 @@ IDAThE
 IKD
 Implicit
 Izr
+Identifier
 Yes
 YY
 YYY
@@ -8592,6 +8610,9 @@ SnD
 Suffix
 SIj
 SGw
+Semantic
+Scopes
+SemanticError
 Notes
 NG
 NK
@@ -9204,6 +9225,7 @@ GN
 GSdx
 Gq
 GOh
+GlobalDecl
 just
 jgc
 jkk
@@ -10043,6 +10065,7 @@ ZWAa
 ZWm
 Zhj
 ZlN
+Zero
 Ji
 JLL
 Jw

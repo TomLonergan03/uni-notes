@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbff7c6a5e5823b4",
+        "id": "3813f92bd514fccb",
         "type": "tabs",
         "children": [
           {
-            "id": "581c2c8140e532c6",
+            "id": "5e780cd8d93b8c06",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,8 +181,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "581c2c8140e532c6",
+  "active": "5e780cd8d93b8c06",
   "lastOpenFiles": [
+    "year_4/compiling_techniques/Week 4/W4N2 - Type analysis.md",
+    "year_3/elements_of_programming_languages/Week 2/W2N3 - Types.md",
+    "year_3/elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+    "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
+    "year_3/elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+    "year_3/elements_of_programming_languages/Week 3/W3N4 - Functions.md",
+    "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
+    "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
+    "year_4/compiling_techniques/Week 2/W2N1 - Automatic lexer generation.md",
     "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
     "year_4/advanced_database_systems/images/w4n2externalHashingRehashing.png",
     "year_4/advanced_database_systems/images/w4n2externalHashingPartition.png",
@@ -193,8 +202,6 @@
     "year_4/advanced_database_systems/images/w4n1twoWayExternalMerge.png",
     "README.md",
     "year_4/advanced_database_systems/Week 4",
-    "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
-    "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
     "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
     "year_4/compiling_techniques/Week 4",
     "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
@@ -217,12 +224,6 @@
     "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
     "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
     "year_4/computer_architecture/Week 10/W10N2 - Main memory.md",
-    "year_3/operating_systems/Week 7/W7N1 - Secondary storage.md",
-    "year_3/operating_systems/Overview.md",
-    "year_4/compiling_techniques/Week 2/W2N1 - Automatic lexer generation.md",
-    "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
-    "year_4/advanced_database_systems/Week 2/W2N1 - Layers of a DBMS.md",
-    "year_4/compiling_techniques/Week 1/W1N1 - Compilers overview.md",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 2",
     "year_4/advanced_database_systems/images",

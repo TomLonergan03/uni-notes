@@ -26,7 +26,7 @@ def foo():
 Semantic analysis detects semantic errors. We will look at 3 different analyses which each check for one kind of semantic error:
 - **Assign target analysis**: checks the left-hand side of an assignment is a valid target
 - **Name analysis**: check all names of variables and functions are declared before they are used
-- **Type analysis**: check the program is well-typed given a set of typing rules
+- **[[W4N2 - Type analysis|Type analysis]]**: check the program is well-typed given a set of typing rules
 
 Each semantic analysis is implemented as a unique pass which traverses the AST.
 ## AST visitors
