@@ -326,6 +326,8 @@ iI
 initially
 ideal
 iter
+iterator
+initialises
 or
 of
 operations
@@ -2029,6 +2031,7 @@ external
 expr
 enforces
 entirely
+eliminate
 bounded
 by
 below
@@ -3001,6 +3004,7 @@ wU
 wyY
 wlJ
 wZj
+workloads
 Defined
 Different
 Datastructures
@@ -3910,6 +3914,7 @@ ctx
 conforms
 collapse
 concatenate
+cleans
 larger
 lower
 likely
@@ -4139,6 +4144,7 @@ lightweight
 leads
 latter
 lceil
+lots
 upper
 use
 useful
@@ -4593,6 +4599,9 @@ fffFGG
 feK
 fv
 func
+follow
+filtered
+forwarded
 There
 Typically
 The
@@ -5178,6 +5187,7 @@ pieces
 putting
 premises
 populate
+processor
 various
 values
 value
@@ -6513,6 +6523,7 @@ rehashing
 respect
 reflection
 rceil
+routine
 Even
 Example
 Extensible
@@ -7051,6 +7062,8 @@ Implicit
 Izr
 Identifier
 IOs
+INFR
+Iterator
 Yes
 YY
 YYY
@@ -7751,6 +7764,7 @@ MtwU
 Mlif
 MCCC
 ME
+Materialisation
 However
 How
 Heapify
@@ -9983,6 +9997,7 @@ VOO
 VWWC
 VVfv
 VqM
+Vectorised
 ZR
 Zx
 ZD

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78c2aeb7ab974e6b",
+        "id": "3431c1af7315b445",
         "type": "tabs",
         "children": [
           {
-            "id": "f25127d563f019a7",
+            "id": "2bdb6cf267917368",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,8 +180,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f25127d563f019a7",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/Week 4/W4N4 - Processing models.md",
+    "Pasted image 20250211182908.png",
+    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
     "year_4/advanced_database_systems/Week 4/W4N3 - Joins.md",
     "README.md",
     "year_4/advanced_database_systems/images/w4n3graceHashJoin.png",
@@ -201,7 +204,6 @@
     "year_4/compiling_techniques/Week 2/W2N1 - Automatic lexer generation.md",
     "year_4/advanced_database_systems/images/w4n2externalHashingRehashing.png",
     "year_4/advanced_database_systems/images/w4n2externalHashingPartition.png",
-    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
     "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md~",
     "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
     "year_4/advanced_database_systems/images/w4n1nWayExternalMerge.png",
@@ -214,7 +216,6 @@
     "year_4/advanced_database_systems/images/w3n4extensibleHashing.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx4.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx3.png",
-    "year_4/advanced_database_systems/images/w3n4extensibleHashingEx2.png",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
@@ -222,7 +223,6 @@
     "year_4/compiling_techniques/Week 2/W2N4 - Bottom-up parsing.md",
     "year_4/compiling_techniques/Week 3",
     "year_4/compiling_techniques/Week 2/W2N3 - Ambiguity.md",
-    "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 2",
     "year_4/advanced_database_systems/images",

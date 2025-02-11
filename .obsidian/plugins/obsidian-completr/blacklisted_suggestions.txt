@@ -7,3 +7,5 @@ STUdy
 front-matter
 \cdot
 \cdotp
+SIMply
+SIMple
