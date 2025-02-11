@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3813f92bd514fccb",
+        "id": "c6e33ed2739fcae3",
         "type": "tabs",
         "children": [
           {
-            "id": "5e780cd8d93b8c06",
+            "id": "a190d46141f752eb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for W9N1 - Synchronisation"
+              "title": "Backlinks"
             }
           },
           {
@@ -181,8 +180,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5e780cd8d93b8c06",
+  "active": "a190d46141f752eb",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/Week 4/W4N3 - Joins.md",
+    "year_4/advanced_database_systems/Week 5/W5N1 - Access methods.md",
+    "year_4/advanced_database_systems/images/w5n1queryPlan.png",
+    "year_4/advanced_database_systems/Week 5",
+    "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
     "year_4/compiling_techniques/Week 4/W4N2 - Type analysis.md",
     "year_3/elements_of_programming_languages/Week 2/W2N3 - Types.md",
     "year_3/elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
@@ -192,7 +196,6 @@
     "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
     "year_4/compiling_techniques/Week 1/W1N2 - Lexical analysis.md",
     "year_4/compiling_techniques/Week 2/W2N1 - Automatic lexer generation.md",
-    "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
     "year_4/advanced_database_systems/images/w4n2externalHashingRehashing.png",
     "year_4/advanced_database_systems/images/w4n2externalHashingPartition.png",
     "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
@@ -211,7 +214,6 @@
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx3.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx2.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx1.png",
-    "year_4/advanced_database_systems/images/w3n4chainedHashTable.png",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
@@ -221,14 +223,10 @@
     "year_4/compiling_techniques/Week 2/W2N3 - Ambiguity.md",
     "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
     "year_4/advanced_database_systems/Week 1/W1N3 - Relational algebra.md",
-    "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
-    "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
-    "year_4/computer_architecture/Week 10/W10N2 - Main memory.md",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 2",
     "year_4/advanced_database_systems/images",
     "year_4/compiling_techniques/images",
-    "year_4/compiling_techniques/Week 1",
     "Untitled.canvas"
   ]
 }

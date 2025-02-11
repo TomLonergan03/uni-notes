@@ -883,6 +883,8 @@ tIf
 technique
 traverse
 traverses
+tuple
+temporary
 some
 smaller
 so
@@ -1403,6 +1405,8 @@ ssS
 sqw
 sjbr
 shadows
+scalar
+stage
 multiple
 matter
 many
@@ -2021,6 +2025,7 @@ evenly
 external
 expr
 enforces
+entirely
 bounded
 by
 below
@@ -2637,6 +2642,8 @@ aDQ
 ak
 aL
 analyses
+aggregate
+anyway
 no
 number
 not
@@ -3895,6 +3902,7 @@ cfj
 checker
 ctx
 conforms
+collapse
 larger
 lower
 likely
@@ -5160,6 +5168,7 @@ precedes
 pieces
 putting
 premises
+populate
 various
 values
 value
@@ -5914,6 +5923,7 @@ doubling
 dbZ
 dCk
 decl
+discarded
 how
 have
 halves
@@ -6852,6 +6862,7 @@ AO
 ASt
 AAX
 AMS
+Aggregations
 InsertSort
 Is
 In
@@ -7860,6 +7871,7 @@ HXR
 Hin
 HmZz
 Hddddhh
+Hashing
 Rigorous
 Rigorously
 Recursion
