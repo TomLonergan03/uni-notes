@@ -1407,6 +1407,8 @@ sjbr
 shadows
 scalar
 stage
+scans
+seconds
 multiple
 matter
 many
@@ -1681,6 +1683,7 @@ mXk
 mPL
 mcu
 merged
+metric
 eventually
 execute
 each
@@ -2644,6 +2647,8 @@ aL
 analyses
 aggregate
 anyway
+approx
+aligned
 no
 number
 not
@@ -2807,6 +2812,7 @@ nZI
 nNa
 nYbS
 nY
+naive
 what
 ways
 we
@@ -3903,6 +3909,7 @@ checker
 ctx
 conforms
 collapse
+concatenate
 larger
 lower
 likely
@@ -4131,6 +4138,7 @@ lVb
 lightweight
 leads
 latter
+lceil
 upper
 use
 useful
@@ -4775,6 +4783,7 @@ TJB
 TMg
 TZZZYYYSS
 TUn
+Total
 possible
 purposes
 performed
@@ -5924,6 +5933,7 @@ dbZ
 dCk
 decl
 discarded
+decompose
 how
 have
 halves
@@ -6119,6 +6129,7 @@ hkq
 hnr
 hCA
 hw
+hours
 runtime
 runtimes
 run
@@ -6501,6 +6512,7 @@ restore
 rehashing
 respect
 reflection
+rceil
 Even
 Example
 Extensible
@@ -7038,6 +7050,7 @@ IKD
 Implicit
 Izr
 Identifier
+IOs
 Yes
 YY
 YYY
@@ -9238,6 +9251,7 @@ GSdx
 Gq
 GOh
 GlobalDecl
+Grace
 just
 jgc
 jkk
@@ -10203,6 +10217,7 @@ JBA
 JfP
 Jhl
 JrjtdT
+Joins
 XO
 XYYI
 XIh

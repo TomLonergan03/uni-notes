@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6e33ed2739fcae3",
+        "id": "78c2aeb7ab974e6b",
         "type": "tabs",
         "children": [
           {
-            "id": "a190d46141f752eb",
+            "id": "f25127d563f019a7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,9 +180,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a190d46141f752eb",
+  "active": "f25127d563f019a7",
   "lastOpenFiles": [
     "year_4/advanced_database_systems/Week 4/W4N3 - Joins.md",
+    "README.md",
+    "year_4/advanced_database_systems/images/w4n3graceHashJoin.png",
+    "B+tree.md",
     "year_4/advanced_database_systems/Week 5/W5N1 - Access methods.md",
     "year_4/advanced_database_systems/images/w5n1queryPlan.png",
     "year_4/advanced_database_systems/Week 5",
@@ -203,7 +206,6 @@
     "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
     "year_4/advanced_database_systems/images/w4n1nWayExternalMerge.png",
     "year_4/advanced_database_systems/images/w4n1twoWayExternalMerge.png",
-    "README.md",
     "year_4/advanced_database_systems/Week 4",
     "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
     "year_4/compiling_techniques/Week 4",
@@ -213,7 +215,6 @@
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx4.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx3.png",
     "year_4/advanced_database_systems/images/w3n4extensibleHashingEx2.png",
-    "year_4/advanced_database_systems/images/w3n4extensibleHashingEx1.png",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
@@ -222,7 +223,6 @@
     "year_4/compiling_techniques/Week 3",
     "year_4/compiling_techniques/Week 2/W2N3 - Ambiguity.md",
     "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
-    "year_4/advanced_database_systems/Week 1/W1N3 - Relational algebra.md",
     "year_4/compiling_techniques/Week 2",
     "year_4/advanced_database_systems/Week 2",
     "year_4/advanced_database_systems/images",
