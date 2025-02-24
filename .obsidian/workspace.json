@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6efd0c6f7ca20773",
+        "id": "038bef2db482d40c",
         "type": "tabs",
         "children": [
           {
-            "id": "e338e951c25cf1cc",
+            "id": "4cb609a5ced881e1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,9 +180,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "245016979c3189b3",
+  "active": "4cb609a5ced881e1",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/Week 6/W6N1 - Query costing.md",
+    "year_4/advanced_database_systems/images/w6n1equidepthHistogram.png",
+    "year_4/advanced_database_systems/images/w6n1equiwidthHistogram.png",
     "year_4/advanced_database_systems/Week 5/W5N2 - Query optimisation.md",
+    "year_4/advanced_database_systems/images/w6n1valueDistribution.png",
+    "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
+    "year_4/compiling_techniques/Week 4/W4N2 - Type analysis.md",
+    "year_4/compiling_techniques/Week 6",
+    "year_4/advanced_database_systems/Week 6",
+    "year_3/elements_of_programming_languages/Week 2/W2N3 - Types.md",
+    "year_4/compiling_techniques/Week 5",
+    "year_4/advanced_database_systems/Week 5/W5N1 - Access methods.md",
+    "year_4/advanced_database_systems/Week 4/W4N3 - Joins.md",
+    "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
+    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
     "year_4/advanced_database_systems/images/w5n2joinOrderings.png",
     "year_4/advanced_database_systems/images/w5n2plan2.png",
     "year_4/advanced_database_systems/images/w5n2plan8.png",
@@ -190,21 +204,11 @@
     "year_4/advanced_database_systems/images/w5n2plan9.png",
     "year_4/advanced_database_systems/images/w5n2plan7.png",
     "year_4/advanced_database_systems/images/w5n2plan6.png",
-    "year_4/advanced_database_systems/images/w5n2plan5.png",
-    "year_4/advanced_database_systems/images/w5n2plan4.png",
-    "year_4/advanced_database_systems/images/w5n2plan3.png",
-    "year_4/advanced_database_systems/Week 5/W5N1 - Access methods.md",
     "year_4/advanced_database_systems/Week 4/W4N4 - Processing models.md",
-    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
-    "year_4/advanced_database_systems/Week 4/W4N3 - Joins.md",
     "README.md",
     "B+tree.md",
     "year_4/advanced_database_systems/Week 5",
-    "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
-    "year_4/compiling_techniques/Week 4/W4N2 - Type analysis.md",
-    "year_3/elements_of_programming_languages/Week 2/W2N3 - Types.md",
     "year_3/elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
-    "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
     "year_3/elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "year_3/elements_of_programming_languages/Week 3/W3N4 - Functions.md",
     "year_4/compiling_techniques/Week 2/W2N2 - Top-down parsing.md",
@@ -221,12 +225,8 @@
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
     "year_4/advanced_database_systems/Week 3",
-    "year_4/compiling_techniques/Week 2/W2N4 - Bottom-up parsing.md",
     "year_4/compiling_techniques/Week 3",
     "year_4/compiling_techniques/Week 2",
-    "year_4/advanced_database_systems/Week 2",
-    "year_4/advanced_database_systems/images",
-    "year_4/compiling_techniques/images",
     "Untitled.canvas"
   ]
 }

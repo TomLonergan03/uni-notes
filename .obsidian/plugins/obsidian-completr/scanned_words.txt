@@ -337,6 +337,9 @@ ikk
 iB
 ihh
 iterate
+intervals
+interval
+iFz
 or
 of
 operations
@@ -565,6 +568,7 @@ orders
 optimisers
 oIEd
 oEe
+oRQ
 there
 that
 than
@@ -906,6 +910,9 @@ tHj
 ttd
 tgCC
 temp
+transitivity
+tfv
+tWw
 some
 smaller
 so
@@ -1441,6 +1448,11 @@ sho
 sailors
 swap
 sailor
+selections
+sel
+skew
+swom
+sz
 multiple
 matter
 many
@@ -1720,6 +1732,9 @@ materialisation
 minor
 mp
 misses
+mDz
+mvA
+mUW
 eventually
 execute
 each
@@ -2074,6 +2089,9 @@ enumerates
 equivalence
 equivalences
 elo
+estimate
+estimating
+estimates
 bounded
 by
 below
@@ -2310,6 +2328,8 @@ batches
 bitmaps
 benefit
 boats
+boundaries
+bo
 above
 asymptotically
 as
@@ -2708,6 +2728,11 @@ aAb
 aYV
 aux
 assuming
+associative
+approximation
+assumes
+approximate
+adapt
 no
 number
 not
@@ -2873,6 +2898,8 @@ nYbS
 nY
 naive
 nRN
+nox
+nMo
 what
 ways
 we
@@ -3063,6 +3090,8 @@ wlJ
 wZj
 workloads
 wQp
+wz
+wO
 Defined
 Different
 Datastructures
@@ -3472,6 +3501,8 @@ Composite
 Common
 Cartesian
 CoD
+CCW
+CSWB
 consider
 compare
 cost
@@ -3991,6 +4022,12 @@ cheaper
 cascade
 cccUUU
 costing
+catalogues
+cardinalities
+correlated
+collect
+continuous
+cYYVm
 larger
 lower
 likely
@@ -4416,6 +4453,9 @@ uEQ
 uWL
 uus
 usm
+uniform
+uyuy
+uam
 for
 focus
 from
@@ -4685,6 +4725,9 @@ filtered
 forwarded
 flowing
 favour
+five
+floating
+fzjhhhhhhhh
 There
 Typically
 The
@@ -4877,6 +4920,7 @@ TZZZYYYSS
 TUn
 Total
 Translating
+Te
 possible
 purposes
 performed
@@ -5285,6 +5329,9 @@ products
 preferable
 pushdown
 projection
+pjt
+pSl
+pmcu
 various
 values
 value
@@ -5447,6 +5494,9 @@ vG
 vQJtUUu
 visitors
 vectorised
+valued
+vqo
+vwwX
 kinds
 know
 keys
@@ -5560,6 +5610,8 @@ kIP
 kj
 kEt
 kUe
+kEWn
+kdG
 We
 Worst
 When
@@ -5691,6 +5743,9 @@ WCD
 WmmmMMMqq
 Whether
 WHjP
+Wne
+WwT
+Wgrt
 definition
 different
 disk
@@ -6049,6 +6104,8 @@ decompose
 degrades
 deeM
 dSa
+downstream
+discrete
 how
 have
 halves
@@ -6248,6 +6305,9 @@ hours
 hardest
 hjjr
 hwi
+hardcoded
+histogram
+histograms
 runtime
 runtimes
 run
@@ -6637,6 +6697,8 @@ rewriter
 ruuuI
 rEEE
 rating
+reducing
+reduction
 Even
 Example
 Extensible
@@ -6811,6 +6873,7 @@ EQfgg
 Eo
 Enumerate
 Estimating
+Ey
 An
 Asymptotic
 Any
@@ -7294,6 +7357,7 @@ YO
 YbJVUr
 YSU
 YLL
+Ymv
 given
 graph
 general
@@ -7454,6 +7518,7 @@ gradual
 gnn
 gDW
 goal
+gZ
 Best
 Basically
 BP
@@ -7620,6 +7685,8 @@ Bloom
 BRÄ
 BRO
 BaR
+BUUM
+BUtS
 quantitative
 queues
 queue
@@ -7732,6 +7799,8 @@ qT
 quicksort
 qwf
 qEE
+qJ
+qKh
 MergeSort
 Method
 Merge
@@ -7898,6 +7967,8 @@ MMMS
 MOd
 MGG
 MCd
+Missing
+MMQ
 However
 How
 Heapify
@@ -8033,6 +8104,8 @@ HmZz
 Hddddhh
 Hashing
 HBB
+Histograms
+HDUU
 Rigorous
 Rigorously
 Recursion
@@ -8227,6 +8300,7 @@ RYk
 Rgj
 Retrieve
 Rewriter
+Rqe
 First
 Fixed
 Fast
@@ -8382,6 +8456,10 @@ FQT
 FVB
 FCs
 FHf
+FGf
+FKkY
+FEQ
+Fq
 Lists
 Linked
 Likewise
@@ -8549,6 +8627,8 @@ LOF
 LCa
 LGg
 LO
+LWvr
+Lzn
 Stacks
 Sometimes
 So
@@ -8795,6 +8875,9 @@ Selections
 Scx
 SWUc
 SbR
+Statistics
+Selectivity
+SHJ
 Notes
 NG
 NK
@@ -8942,6 +9025,8 @@ Nt
 NOMOM
 Ntuu
 Nfffll
+Negations
+NLP
 Obsidian
 OOO
 OO
@@ -9097,6 +9182,8 @@ Optimisations
 OAA
 OTT
 OZ
+Ooo
+OHO
 Probing
 Peek
 Partition
@@ -9289,6 +9376,7 @@ Provides
 Plan
 Projections
 Pqqq
+PvP
 Given
 Gp
 GGG
@@ -9418,6 +9506,7 @@ GOh
 GlobalDecl
 Grace
 GS
+Gs
 just
 jgc
 jkk
@@ -9678,6 +9767,7 @@ UWt
 Unclustered
 UBBBb
 UXh
+US
 QuickSort
 QeD
 Qq
@@ -10162,6 +10252,10 @@ Vectorised
 Vectorisation
 VGjV
 Vkff
+VJR
+Veki
+Vcjx
+Vo
 ZR
 Zx
 ZD
@@ -10273,6 +10367,9 @@ ZlN
 Zero
 ZMS
 Zs
+Zew
+Zeouq
+Zam
 Ji
 JLL
 Jw
@@ -10609,6 +10706,8 @@ zgzS
 zdl
 zwz
 zll
+zB
+zTM
 xxx
 xe
 xfs
@@ -10708,6 +10807,8 @@ xNWC
 xFJ
 xGW
 xZZZ
+xuRz
+xo
 ÖQ
 üh
 öh
