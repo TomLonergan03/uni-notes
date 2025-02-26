@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "038bef2db482d40c",
+        "id": "463bd858eabca73f",
         "type": "tabs",
         "children": [
           {
-            "id": "4cb609a5ced881e1",
+            "id": "4b2c96827b6861f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "year_4/advanced_database_systems/Week 6/W6N2 - Query search.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "W6N2 - Query search"
             }
           }
         ]
@@ -180,13 +184,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4cb609a5ced881e1",
+  "active": "4b2c96827b6861f8",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/images/w6n2pass2best.png",
+    "year_4/advanced_database_systems/Week 6/W6N2 - Query search.md",
+    "year_4/advanced_database_systems/images/w6n2pass3best.png",
+    "year_4/advanced_database_systems/images/w6n2pass3candidates.png",
+    "year_4/advanced_database_systems/images/w6n2pass2candidates.png",
+    "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
+    "year_4/advanced_database_systems/images/w6n3serialSchedule.png",
+    "Pasted image 20250226121725.png",
+    "year_4/advanced_database_systems/images/w6n3interleavedIncorrect.png",
+    "year_4/advanced_database_systems/images/w6n3interleavedCorrect.png",
+    "year_4/advanced_database_systems/images/w6n3serialCorrect.png",
+    "year_4/advanced_database_systems/images/w6n3wwConflict.png",
+    "README.md",
     "year_4/advanced_database_systems/Week 6/W6N1 - Query costing.md",
-    "year_4/advanced_database_systems/images/w6n1equidepthHistogram.png",
-    "year_4/advanced_database_systems/images/w6n1equiwidthHistogram.png",
     "year_4/advanced_database_systems/Week 5/W5N2 - Query optimisation.md",
-    "year_4/advanced_database_systems/images/w6n1valueDistribution.png",
     "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
     "year_4/compiling_techniques/Week 4/W4N2 - Type analysis.md",
     "year_4/compiling_techniques/Week 6",
@@ -197,15 +211,7 @@
     "year_4/advanced_database_systems/Week 4/W4N3 - Joins.md",
     "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
     "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
-    "year_4/advanced_database_systems/images/w5n2joinOrderings.png",
-    "year_4/advanced_database_systems/images/w5n2plan2.png",
-    "year_4/advanced_database_systems/images/w5n2plan8.png",
-    "year_4/advanced_database_systems/images/w5n2planWithIndexes.png",
-    "year_4/advanced_database_systems/images/w5n2plan9.png",
-    "year_4/advanced_database_systems/images/w5n2plan7.png",
-    "year_4/advanced_database_systems/images/w5n2plan6.png",
     "year_4/advanced_database_systems/Week 4/W4N4 - Processing models.md",
-    "README.md",
     "B+tree.md",
     "year_4/advanced_database_systems/Week 5",
     "year_3/elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
@@ -222,8 +228,6 @@
     "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
     "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
     "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
-    "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
-    "year_4/compiling_techniques/Week 3/W3N1 - Abstract Syntax.md",
     "year_4/advanced_database_systems/Week 3",
     "year_4/compiling_techniques/Week 3",
     "year_4/compiling_techniques/Week 2",
