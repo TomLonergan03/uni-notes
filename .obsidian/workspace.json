@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "463bd858eabca73f",
+        "id": "d797df0e10584b6c",
         "type": "tabs",
         "children": [
           {
-            "id": "4b2c96827b6861f8",
+            "id": "b3e2597e20ebc28e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "year_4/advanced_database_systems/Week 6/W6N2 - Query search.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "W6N2 - Query search"
+              "title": "New tab"
             }
           }
         ]
@@ -184,22 +180,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4b2c96827b6861f8",
+  "active": "b3e2597e20ebc28e",
   "lastOpenFiles": [
-    "year_4/advanced_database_systems/images/w6n2pass2best.png",
+    "year_4/compiling_techniques/Week 6/W6N1 - IR generation and SSA.md",
+    "year_4/compiling_techniques/Week 6/W6N2 - IR optimisation.md",
+    "year_4/compiling_techniques/images/w6n2afterConstantFolding.png",
+    "year_4/compiling_techniques/images/w6n2beforeConstantFolding.png",
+    "year_4/compiling_techniques/images/w6n2optimiser.png",
+    "year_4/compiling_techniques/images/w6n1astToIr.png",
+    "year_4/compiling_techniques/images/w6n1irGenerator.png",
     "year_4/advanced_database_systems/Week 6/W6N2 - Query search.md",
+    "year_4/advanced_database_systems/Week 6/W6N1 - Query costing.md",
+    "year_4/advanced_database_systems/images/w6n2pass2best.png",
     "year_4/advanced_database_systems/images/w6n2pass3best.png",
     "year_4/advanced_database_systems/images/w6n2pass3candidates.png",
     "year_4/advanced_database_systems/images/w6n2pass2candidates.png",
     "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
     "year_4/advanced_database_systems/images/w6n3serialSchedule.png",
-    "Pasted image 20250226121725.png",
-    "year_4/advanced_database_systems/images/w6n3interleavedIncorrect.png",
-    "year_4/advanced_database_systems/images/w6n3interleavedCorrect.png",
-    "year_4/advanced_database_systems/images/w6n3serialCorrect.png",
-    "year_4/advanced_database_systems/images/w6n3wwConflict.png",
     "README.md",
-    "year_4/advanced_database_systems/Week 6/W6N1 - Query costing.md",
     "year_4/advanced_database_systems/Week 5/W5N2 - Query optimisation.md",
     "year_4/compiling_techniques/Week 4/W4N1 - Semantic analysis.md",
     "year_4/compiling_techniques/Week 4/W4N2 - Type analysis.md",
@@ -226,8 +224,6 @@
     "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
     "year_4/compiling_techniques/Week 4",
     "year_4/advanced_database_systems/Week 3/W3N3 - Tree-based indexing.md",
-    "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
-    "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Week 3",
     "year_4/compiling_techniques/Week 3",
     "year_4/compiling_techniques/Week 2",

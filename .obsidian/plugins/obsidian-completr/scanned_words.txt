@@ -371,6 +371,7 @@ ijB
 ikp
 interleavings
 iWAw
+inconvenient
 or
 of
 operations
@@ -639,6 +640,9 @@ obQ
 onn
 oAM
 oVK
+optimising
+optimisations
+operands
 there
 that
 than
@@ -1891,6 +1895,7 @@ mmmGGG
 mj
 mainstream
 mUU
+mutation
 eventually
 execute
 each
@@ -2287,6 +2292,7 @@ enumerate
 estimations
 eYSU
 ezj
+expect
 bounded
 by
 below
@@ -3866,6 +3872,7 @@ Concurrent
 Consistency
 Conflicting
 Cok
+ChocoPy
 consider
 compare
 cost
@@ -5902,6 +5909,7 @@ plH
 prefer
 pipelined
 palns
+percent
 various
 values
 value
@@ -6785,6 +6793,7 @@ dCJ
 dNV
 dWc
 dNh
+datastructures
 how
 have
 halves
@@ -8928,6 +8937,7 @@ MuQJ
 MsKY
 Mvy
 Modern
+Mutating
 However
 How
 Heapify
@@ -9971,6 +9981,7 @@ Sbln
 SXR
 SKt
 SSSSS
+SSA
 Notes
 NG
 NK
@@ -10318,6 +10329,8 @@ OPEI
 OV
 OzGT
 Optimistic
+Operands
+Operations
 Probing
 Peek
 Partition
