@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c621a9e9033574a8",
+        "id": "3a734f81ad171392",
         "type": "tabs",
         "children": [
           {
-            "id": "69f3138d1320ee0d",
+            "id": "3d231131a7f67b5d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,22 +180,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "69f3138d1320ee0d",
+  "active": "3d231131a7f67b5d",
   "lastOpenFiles": [
+    "year_4/compiling_techniques/Week 7/W7N1 - Dataflow analysis.md",
+    "year_4/compiling_techniques/images/w7n1liveness1.png",
+    "year_4/compiling_techniques/images/w7n1globalReaching1.png",
+    "year_4/compiling_techniques/images/w7n1globalReaching3.png",
+    "year_4/compiling_techniques/images/w7n1globalReaching2.png",
+    "year_4/compiling_techniques/images/w7n1localReachingAnalysis.png",
+    "year_4/compiling_techniques/images/w7n1variableReach.png",
+    "year_4/compiling_techniques/Week 7",
     "year_4/compiling_techniques/Week 6/W6N3 - Building SSA.md",
     "README.md",
     "year_4/compiling_techniques/images/w6n3minimalSsaBegin.png",
     "year_4/compiling_techniques/images/w6n3minimalSsaMiddle.png",
     "year_4/compiling_techniques/images/w6n3minimalSsaEnd.png",
     "year_4/compiling_techniques/images/w6n3dominatorGraph.png",
-    "year_4/compiling_techniques/images/w6n3naivePhiPlacement.png",
-    "year_4/compiling_techniques/images/w6n3phiNode.png",
     "year_4/compiling_techniques/Week 6/W6N1 - IR generation and SSA.md",
     "year_4/compiling_techniques/Week 6/W6N2 - IR optimisation.md",
-    "year_4/compiling_techniques/images/w6n2afterConstantFolding.png",
-    "year_4/compiling_techniques/images/w6n2beforeConstantFolding.png",
-    "year_4/compiling_techniques/images/w6n2optimiser.png",
-    "year_4/compiling_techniques/images/w6n1astToIr.png",
     "year_4/advanced_database_systems/Week 6/W6N2 - Query search.md",
     "year_4/advanced_database_systems/Week 6/W6N1 - Query costing.md",
     "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
@@ -222,11 +224,9 @@
     "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md~",
     "year_4/advanced_database_systems/Week 3/W3N2 - Indexes.md",
     "year_4/advanced_database_systems/Week 4",
-    "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
     "year_4/compiling_techniques/Week 4",
     "year_4/advanced_database_systems/Week 3",
     "year_4/compiling_techniques/Week 3",
-    "year_4/compiling_techniques/Week 2",
     "Untitled.canvas"
   ]
 }
