@@ -372,6 +372,7 @@ ikp
 interleavings
 iWAw
 inconvenient
+iAlJ
 or
 of
 operations
@@ -643,6 +644,7 @@ oVK
 optimising
 optimisations
 operands
+opg
 there
 that
 than
@@ -1018,6 +1020,7 @@ tbf
 tkp
 tjl
 tVs
+tqq
 some
 smaller
 so
@@ -1587,6 +1590,7 @@ serially
 serial
 spxr
 skn
+sTTT
 multiple
 matter
 many
@@ -1896,6 +1900,8 @@ mj
 mainstream
 mUU
 mutation
+mxx
+mCJJ
 eventually
 execute
 each
@@ -2293,6 +2299,9 @@ estimations
 eYSU
 ezj
 expect
+eFzc
+eTead
+eIG
 bounded
 by
 below
@@ -2553,6 +2562,9 @@ bhhhdddg
 balances
 bPu
 bZL
+bPX
+bLlYa
+branching
 above
 asymptotically
 as
@@ -2988,6 +3000,7 @@ aggregates
 azf
 ann
 adtsuaq
+aiA
 no
 number
 not
@@ -3184,6 +3197,7 @@ nej
 nkt
 nMd
 nB
+nZZ
 what
 ways
 we
@@ -3409,6 +3423,7 @@ wttT
 wyB
 wpx
 wG
+wiy
 Defined
 Different
 Datastructures
@@ -3624,6 +3639,11 @@ DkyI
 Dbee
 Dlj
 Doing
+Dnn
+DGG
+DMa
+Dominators
+Dominance
 Can
 CPU
 Create
@@ -3873,6 +3893,11 @@ Consistency
 Conflicting
 Cok
 ChocoPy
+CEa
+CEV
+Cgs
+CIq
+Cii
 consider
 compare
 cost
@@ -4436,6 +4461,12 @@ cheaply
 cheapest
 csc
 candidate
+csJQZZ
+cMH
+cfcC
+cRs
+converted
+constraint
 larger
 lower
 likely
@@ -5233,6 +5264,8 @@ fvd
 fGg
 frtq
 fDQ
+frontiers
+frontier
 There
 Typically
 The
@@ -5464,6 +5497,7 @@ TYY
 TxSr
 Tjvvvllldddff
 TxA
+TFz
 possible
 purposes
 performed
@@ -5910,6 +5944,9 @@ prefer
 pipelined
 palns
 percent
+pCk
+placement
+predecessor
 various
 values
 value
@@ -6111,6 +6148,9 @@ vLY
 vNb
 vwS
 vb
+vSRRV
+vlZ
+vwZgw
 kinds
 know
 keys
@@ -6250,6 +6290,7 @@ kso
 kUt
 kln
 kMg
+kKY
 We
 Worst
 When
@@ -6403,6 +6444,7 @@ WUx
 Wub
 WUUUUM
 WWV
+WQX
 definition
 different
 disk
@@ -6794,6 +6836,10 @@ dNV
 dWc
 dNh
 datastructures
+dMM
+dominates
+dominators
+dominance
 how
 have
 halves
@@ -7018,6 +7064,11 @@ hsm
 hVVV
 hhb
 hdtr
+hlj
+hokCgG
+hhl
+hDoE
+hBeu
 runtime
 runtimes
 run
@@ -7443,6 +7494,8 @@ restricted
 retaining
 rsQ
 rQO
+rL
+rZJ
 Even
 Example
 Extensible
@@ -7648,6 +7701,9 @@ Execution
 Ehy
 EYt
 ETZ
+Evn
+EiJ
+Ekw
 An
 Asymptotic
 Any
@@ -7859,6 +7915,9 @@ ACID
 Atomicity
 ADf
 Au
+Avf
+Aqv
+ADbS
 InsertSort
 Is
 In
@@ -8210,6 +8269,8 @@ YjRD
 Yy
 YoQ
 Ytf
+YXEEE
+Ysw
 given
 graph
 general
@@ -8400,6 +8461,8 @@ gOuuu
 gOss
 gfbD
 gIS
+gJbVVV
+great
 Best
 Basically
 BP
@@ -8601,6 +8664,9 @@ BTE
 Buuu
 Bfgg
 Baks
+BKK
+Bzz
+BII
 quantitative
 queues
 queue
@@ -8743,6 +8809,12 @@ qdv
 qcKKKCCCQQQa
 qaR
 qw
+qH
+qPH
+qfFS
+qpYF
+qwD
+qJIIyU
 MergeSort
 Method
 Merge
@@ -8938,6 +9010,9 @@ MsKY
 Mvy
 Modern
 Mutating
+MGQi
+MEAA
+Minimal
 However
 How
 Heapify
@@ -9099,6 +9174,8 @@ HYWnn
 HiX
 HIT
 Hdjj
+HqW
+HMwy
 Rigorous
 Rigorously
 Recursion
@@ -9321,6 +9398,7 @@ RHN
 RvoW
 RJM
 Rko
+RZVK
 First
 Fixed
 Fast
@@ -9510,6 +9588,10 @@ FpU
 Flqr
 Fgff
 Focusing
+Fow
+FRf
+FFFlI
+FYY
 Lists
 Linked
 Likewise
@@ -9982,6 +10064,7 @@ SXR
 SKt
 SSSSS
 SSA
+Strict
 Notes
 NG
 NK
@@ -10150,6 +10233,8 @@ Nbu
 NwMW
 NXZ
 NxI
+Npr
+NEV
 Obsidian
 OOO
 OO
@@ -10331,6 +10416,8 @@ OzGT
 Optimistic
 Operands
 Operations
+OWü
+Odu
 Probing
 Peek
 Partition
@@ -10557,6 +10644,8 @@ PMe
 PSB
 PJUU
 PwDFz
+PZV
+PWWg
 Given
 Gp
 GGG
@@ -10700,6 +10789,9 @@ GwH
 GRI
 GUU
 GHu
+GRRL
+GiA
+GASZl
 just
 jgc
 jkk
@@ -10833,6 +10925,9 @@ jxQ
 juq
 jvev
 jX
+jGkK
+jCm
+jnf
 Using
 UEGGG
 UF
@@ -11007,6 +11102,7 @@ UUE
 UX
 UUY
 UbZ
+UKw
 QuickSort
 QeD
 Qq
@@ -11146,6 +11242,7 @@ QQT
 QTy
 Qcb
 QjU
+Qzu
 you
 ys
 yyy
@@ -11291,6 +11388,10 @@ ydT
 yoa
 ycdBho
 yyq
+yeX
+yOs
+yvG
+ymqk
 KKKt
 KO
 Kw
@@ -11431,6 +11532,8 @@ KEm
 KJK
 KxI
 KgFC
+KOx
+KKV
 VVVl
 VN
 VSS
@@ -11575,6 +11678,8 @@ Vr
 Vde
 Vyir
 VfQf
+VbM
+Vva
 ZR
 Zx
 ZD
@@ -11710,6 +11815,8 @@ ZwT
 ZAN
 Zvi
 Zqg
+Zxs
+ZFd
 Ji
 JLL
 Jw
@@ -11867,6 +11974,8 @@ JnM
 JJK
 JBY
 Jif
+Jjw
+JYSS
 XO
 XYYI
 XIh
@@ -12130,6 +12239,9 @@ zUk
 zAu
 zoz
 zuuu
+zxur
+zWl
+zoR
 xxx
 xe
 xfs
@@ -12254,6 +12366,7 @@ xPH
 xlmmyM
 xlgW
 xCc
+xc
 ÖQ
 üh
 öh
