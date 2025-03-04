@@ -36,22 +36,22 @@ Concurrent execution of individual transactions is preferred as it allows better
 - **Consistency**: if each transaction is consistent, and the database starts in a consistent state, then the database will be consistent after the transactions are performed
 - **Isolation**: if multiple transactions are executing simultaneously, then each individual transaction should should have the same effect as if it were executed alone
 - **Durability**: if a transaction commits its effects persist
-## Ensuring atomicity
+# Ensuring atomicity
 There are two approaches:
 1. **Write-ahead logs**: each action is written to a log, which are then executed on commit. This is used by almost all modern DBMSes, as it allows for transforming random writes into sequential writes, and can provide an audit trail of everything an app does.
 2. **Shadow paging (copy on write)**: the DBMS makes copies of pages and transactions make changes to the copies. When a transaction completes, its shadow pages become visible to others.
-## Ensuring isolation
+# Ensuring isolation
 A **concurrency control** protocol determines the proper interleaving of operations from multiple transactions. There are two main approaches:
 1. **Pessimistic**: don't let problems arise in the first place, using locks or similar
 2. **Optimistic**: assume conflicts are rare, and deal with them after they happen
-### Example
+## Example
 If we have two accounts `A` and `B`, each with £1000, and `T1` transfers £100 from `A` to `B` and `T2` crediting both accounts with 6% interest, then there are many outcomes from running both simultaneously. There is no guarantee one will run before the other, but the net effect must be equivalent to them running serially in some order:
 ![[w6n3serialCorrect.png]]
 These operations can also be interleaved, and as long as $A+B=2120$, everything is fine:
 ![[w6n3interleavedCorrect.png]]
 There are however many interleavings that are not consistent:
 ![[w6n3interleavedIncorrect.png]]
-### Schedule
+## Schedule
 A **schedule** is an ordering of reads and writes from a transaction. It is correct if it is equivalent to some serial execution of the transactions.
 
 A schedule $S$ for a set of transactions $\{T_1,...,T_n\}$ contains all steps of all transactions and the ordering among steps in each $T_i$ is preserved, so $S=\langle R_1(B),R_2(A),W_2(B),W_1(A)\rangle$ where $R_1(A)$ is $T_1$ reading $A$.
@@ -62,12 +62,50 @@ A schedule that does not interleave the actions of different transactions is **s
 ![[w6n3serialSchedule.png]]
 
 A schedule is **serialisable** if it is equivalent to some serial execution of the transactions. If each transaction preserves consistency, then every serialisable schedule preserves consistency.
-#### Conflicting operations
-Two operations conflict if the are by different transactions, on the same object, and at least one of them is a write. There are three types:
+### Conflicting operations
+Two operations conflict if they are by different transactions, on the same object, and at least one of them is a write. There are three types:
 1. **Read-write (RW) conflicts**: consecutive reads in the same transaction must have the same result
    ![[w6n3rwConflict.png]]
 2. **Write-read (WR) conflicts**: reading uncommitted data prevents rollbacks
    ![[w6n3wrConflict.png]]
 3. **Write-write (WW) conflicts**: overwriting uncommitted data loses updates
    ![[w6n3wwConflict.png]]
+### Formal properties of schedules
+There are two levels of serialisability:
+- **Conflict serialisability** is supported by most DBMSes
+- **View serialisability** is not supported by any DBMS
+#### Conflict serialisable schedules
+Two schedules are **conflict equivalent** iff the involve the same actions of the same transactions and every pair of conflicting actions is ordered in the same way.
 
+Schedule $S$ is **conflict serialisable** if $S$ is conflict equivalent to some serial schedule. (Intuitionally, $S$ is conflict serialisable if you can transform it into a serial schedule by swapping consecutive non-conflicting operations of different transactions)
+
+E.g. this schedule
+![[w6n3conflictSerialisableStart.png]]
+is conflict serialisable to this schedule:
+![[w6n3conflictSerialisableEnd.png]]
+as $T_2$ performs every conflicting action after $T_1$.
+
+These schedules are not conflict serialisable:
+![[w6n3notConflictSerialisable.png]]
+as the first conflict happens $T_1$ before $T_2$, while the second happens $T_2$ before $T_1$.
+##### Dependency graphs
+![[w6n3dependencyGraph.png]]
+We can construct a **dependency graph** for a schedule, with one node per transaction, and and edge from $T_i$ to $T_j$ if operation $O_i$ of $T_i$ conflicts with an operation $O_j$ of $T_j$ and $O_i$ appears earlier in the schedule than $O_j$.
+
+A schedule is conflict-serialisable iff its dependency graph is acyclic. This means that an equivalent serial schedule can be obtained by sorting the graph topologically.
+
+E.g. an unserialisable schedule:
+![[w6n3graphWithCycle.png]]
+and a serialisable schedule:
+![[w6n3graphWithoutCycle.png]]
+#### View serialisability
+**View serialisability** is a alternative weaker (includes all conflict-serialisable and some non-conflict-serialisable schedules) notion of serialisability.
+Schedule $S_1$ and $S_2$ are **view equivalent** iff
+- If $T_1$ reads the initial value of $A$ in $S_1$, then $T_1$ also reads the initial value of $A$ in $S_2$.
+- If $T_1$ reads a value of $A$ written by $T_2$ in $S_1$, then it also reads the value of $A$ written by $T_2$ in $S_2$.
+- If $T_1$ writes the final value of $A$ in $S_1$, then $T_1$ also writes the final value of $A$ in $S_2$.
+
+View serialisability is not used as there is no way to enforce it efficiently.
+
+E.g. this is view serialisable even though it's dependency graph contains cycles:
+![[w6n3viewSerialisable.png]]![[w6n3viewSerialisable2.png]]
