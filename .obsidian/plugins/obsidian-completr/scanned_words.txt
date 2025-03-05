@@ -383,6 +383,10 @@ iterative
 interleave
 iZB
 iuJ
+iUC
+ijaf
+iag
+icafz
 or
 of
 operations
@@ -671,6 +675,10 @@ obtained
 optimistic
 otehrwise
 oUJ
+oOsMG
+ohz
+offers
+ocJ
 there
 that
 than
@@ -1070,6 +1078,11 @@ topologically
 txI
 tIc
 txh
+tTc
+tgaTO
+tjPMnsh
+tyz
+trasaction
 some
 smaller
 so
@@ -1657,6 +1670,8 @@ sEa
 sRF
 sgww
 snu
+sure
+steal
 multiple
 matter
 many
@@ -1983,6 +1998,7 @@ mln
 mGB
 mYo
 mmr
+modifications
 eventually
 execute
 each
@@ -2396,6 +2412,11 @@ exQ
 eeess
 eYk
 eYJ
+ehh
+eFG
+eRa
+eogsm
+eSK
 bounded
 by
 below
@@ -2670,6 +2691,9 @@ bcwD
 bqyy
 bFd
 bgg
+bug
+backup
+bxO
 above
 asymptotically
 as
@@ -3124,6 +3148,11 @@ aborted
 axi
 akl
 aHD
+aFR
+aTs
+acceptable
+aMC
+aaNp
 no
 number
 not
@@ -3340,6 +3369,8 @@ nDr
 nobody
 nllD
 nmoo
+nvM
+nLh
 what
 ways
 we
@@ -3817,6 +3848,8 @@ Dependency
 DQU
 DTs
 DIU
+DDl
+DQG
 Can
 CPU
 Create
@@ -4081,6 +4114,8 @@ CEQvvvVWW
 CYC
 Conflict
 CWw
+Chv
+CkWK
 consider
 compare
 cost
@@ -4671,6 +4706,13 @@ cjm
 cgK
 cbF
 cfh
+cOm
+cDL
+committed
+cut
+checksums
+corruption
+confirmed
 larger
 lower
 likely
@@ -4956,6 +4998,8 @@ lzc
 lnnnoo
 lvjrjbj
 lvbr
+lfSMS
+laP
 upper
 use
 useful
@@ -5195,6 +5239,10 @@ uIHHHHHHH
 uQHm
 unserialisable
 uxIr
+uum
+undo
+uncommon
+uOjb
 for
 focus
 from
@@ -5522,6 +5570,9 @@ ffg
 fgaf
 fggWVV
 fHw
+foz
+flushed
+flushing
 There
 Typically
 The
@@ -5772,6 +5823,9 @@ TbP
 TILE
 TJj
 TRHO
+Tgq
+Tvgd
+TXTYVV
 possible
 purposes
 performed
@@ -6244,6 +6298,9 @@ phase
 poOo
 pPa
 pkW
+pOkuyUsO
+posQ
+pjd
 various
 values
 value
@@ -6464,6 +6521,7 @@ versioning
 violating
 vjD
 vkk
+violation
 kinds
 know
 keys
@@ -6617,6 +6675,7 @@ klnn
 kimc
 kfff
 keeeiq
+kUvP
 We
 Worst
 When
@@ -6782,6 +6841,10 @@ WAW
 WKti
 Wbb
 WSS
+WwJ
+WWi
+WWg
+WUI
 definition
 different
 disk
@@ -7189,6 +7252,10 @@ dead
 dIb
 dependency
 dbyy
+dkB
+durable
+destroys
+detectable
 how
 have
 halves
@@ -7437,6 +7504,7 @@ hlap
 hwll
 hiiI
 hXx
+hfT
 runtime
 runtimes
 run
@@ -7888,6 +7956,19 @@ releasing
 rzf
 rykk
 rrrnv
+rzb
+roX
+rolls
+restored
+restarts
+repairable
+recoverable
+replica
+redo
+remembering
+redoing
+rth
+rYS
 Even
 Example
 Extensible
@@ -8113,6 +8194,7 @@ EMMN
 EQUu
 Exclusive
 Eaj
+EQN
 An
 Asymptotic
 Any
@@ -8566,6 +8648,10 @@ Ifr
 Intuitionally
 IpR
 Imp
+IxN
+IIV
+Internal
+IrSj
 Yes
 YY
 YYY
@@ -8710,6 +8796,7 @@ YSG
 YhD
 Yzx
 YVq
+YTM
 given
 graph
 general
@@ -8924,6 +9011,7 @@ gEd
 gKK
 gUq
 gnP
+gYN
 Best
 Basically
 BP
@@ -9145,6 +9233,8 @@ BiAd
 Bxxx
 BdY
 BjwQoa
+BhB
+Bfeg
 quantitative
 queues
 queue
@@ -9306,6 +9396,7 @@ qJo
 qqf
 qTE
 qtt
+qUN
 MergeSort
 Method
 Merge
@@ -9524,6 +9615,9 @@ MMO
 MfG
 MajiM
 MGw
+MsW
+Managing
+Mfz
 However
 How
 Heapify
@@ -9703,6 +9797,9 @@ HHHH
 HHr
 HHxk
 HZfnqA
+Hrqs
+HST
+HGV
 Rigorous
 Rigorously
 Recursion
@@ -9957,6 +10054,8 @@ RLL
 RRJ
 RII
 RiaaQ
+Rzf
+RzxH
 First
 Fixed
 Fast
@@ -10171,6 +10270,7 @@ Fjc
 Fvuvv
 Fcoo
 FcF
+Force
 Lists
 Linked
 Likewise
@@ -10671,6 +10771,8 @@ SsO
 SSSV
 SJY
 Sgf
+Steal
+Slo
 Notes
 NG
 NK
@@ -10852,6 +10954,8 @@ NVo
 Nvxx
 NBM
 NLN
+NUcCGyE
+NUW
 Obsidian
 OOO
 OO
@@ -11046,6 +11150,7 @@ OFGGi
 OJWx
 Ohxxxee
 OnJh
+OYS
 Probing
 Peek
 Partition
@@ -11290,6 +11395,9 @@ PXZZz
 PTP
 PPg
 PRJ
+PDllRrjJl
+Pit
+PCU
 Given
 Gp
 GGG
@@ -11445,6 +11553,7 @@ Global
 General
 Glg
 GQx
+Gvw
 just
 jgc
 jkk
@@ -11602,6 +11711,10 @@ jlllzzZ
 jhhHLT
 jmC
 jyz
+jCW
+jip
+jkj
+jPzz
 Using
 UEGGG
 UF
@@ -11949,6 +12062,7 @@ Qvy
 QAL
 QJC
 QJmoo
+QRT
 you
 ys
 yyy
@@ -12114,6 +12228,8 @@ yRt
 yCC
 yyyaa
 ymQPUuzz
+yEEv
+ynI
 KKKt
 KO
 Kw
@@ -12265,6 +12381,7 @@ KBB
 KBBBBBBB
 KssK
 Kdr
+KtM
 VVVl
 VN
 VSS
@@ -12435,6 +12552,11 @@ Vgo
 Vba
 Vkmmm
 VWWwvvj
+VuM
+VcrT
+Vmm
+VKn
+VSj
 ZR
 Zx
 ZD
@@ -12591,6 +12713,11 @@ ZSyH
 Zmii
 Zmrrrjj
 Zem
+Zgq
+ZRQ
+Zhq
+Zdn
+ZKm
 Ji
 JLL
 Jw
@@ -12779,6 +12906,8 @@ Jlw
 Jr
 JYWJ
 JYo
+JVW
+Jyw
 XO
 XYYI
 XIh
@@ -12916,6 +13045,9 @@ XKQ
 Xluu
 Xtbb
 XQdQ
+XWv
+XeM
+Xsoevam
 zo
 zjR
 zx
@@ -13219,6 +13351,9 @@ xfv
 xUe
 xww
 xrj
+xcI
+xcNe
+xkH
 ÖQ
 üh
 öh

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3a734f81ad171392",
+        "id": "9c86bc41dbc9bba0",
         "type": "tabs",
         "children": [
           {
-            "id": "3d231131a7f67b5d",
+            "id": "836f953c881d2a5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "year_4/advanced_database_systems/Week 7/W7N1 - Locking.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "W7N1 - Locking"
+              "title": "New tab"
             }
           }
         ]
@@ -184,20 +180,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3d231131a7f67b5d",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
-    "year_4/advanced_database_systems/images/w7n1cascadingAbort.png",
-    "year_4/advanced_database_systems/Week 7/W7N1 - Locking.md",
+    "year_4/advanced_database_systems/Week 7/W7N2 - Recovery.md",
     "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
+    "year_4/advanced_database_systems/Week 7/W7N1 - Locking.md",
+    "year_4/advanced_database_systems/images/w7n1deadlockPrevention.png",
+    "year_4/advanced_database_systems/images/w7n1deadlockDetection.png",
+    "year_4/advanced_database_systems/images/w7n1conservative2pl.png",
+    "year_4/advanced_database_systems/images/w7n1deadlock.png",
+    "year_4/advanced_database_systems/images/w7n1strict2pl.png",
+    "year_4/advanced_database_systems/images/w7n1cascadingAbort.png",
     "year_4/advanced_database_systems/images/w7n1twoPhaseConflictSerialisable.png",
     "year_4/advanced_database_systems/images/w7n1twoPhaseLocking.png",
     "year_4/advanced_database_systems/images/w7n1lockingUnserialisable.png",
     "year_4/advanced_database_systems/images/w7n1lockManager.png",
-    "year_4/advanced_database_systems/images/w6n3dependencyGraph.png",
-    "year_4/advanced_database_systems/images/w6n3viewSerialisable2.png",
-    "year_4/advanced_database_systems/images/w6n3viewSerialisable.png",
-    "year_4/advanced_database_systems/images/w6n3graphWithoutCycle.png",
-    "year_4/advanced_database_systems/images/w6n3graphWithCycle.png",
     "year_4/advanced_database_systems/Week 7",
     "year_4/compiling_techniques/Week 7/W7N1 - Dataflow analysis.md",
     "year_4/compiling_techniques/Week 7",
