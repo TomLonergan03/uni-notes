@@ -1,5 +1,3 @@
-# Parallel vs distributed DBMSes
-**Parallel DBMSes** have nodes that are physically close to each other, connected via a high-speed LAN, and low communication costs. **Distributed DBMSes** can have nodes that are far from each other and connected over a public network, meaning communication cost and problems cannot be ignored.
 # System architecture
 There are three main system architectures that are used in practice
 ## Shared memory

@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ca25635ce8356458",
+        "id": "8f5d9ff6187a2448",
         "type": "tabs",
         "children": [
           {
-            "id": "f4e50e9a64a33b2f",
+            "id": "e53c29302667beb1",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "year_4/advanced_database_systems/images/w8n1hashPartitioning.png"
+                "file": "year_4/advanced_database_systems/images/w7n3distributedDeadlock.png"
               },
               "icon": "lucide-image",
-              "title": "w8n1hashPartitioning"
+              "title": "w7n3distributedDeadlock"
             }
           }
         ]
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2 phase commit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,12 +184,19 @@
   },
   "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "year_4/advanced_database_systems/Week 7/W7N2 - Recovery.md",
+    "year_4/advanced_database_systems/Week 7/W7N3 - Distributed transactions.md",
+    "year_4/advanced_database_systems/images/w7n32phaseCommit.png",
+    "year_4/distributed_systems/Week 5/W5N1 - Consensus.md",
+    "year_4/advanced_database_systems/images/w7n3globalDeadlockDetection.png",
+    "year_4/advanced_database_systems/images/w7n3distributedDeadlock.png",
     "year_4/advanced_database_systems/Week 8/W8N1 - Parallel query processing.md",
+    "year_4/advanced_database_systems/Week 7/W7N1 - Locking.md",
+    "year_4/advanced_database_systems/images/w8n1hashPartitioning.png",
     "year_4/advanced_database_systems/images/w8n1parallelHashing.png",
     "year_4/advanced_database_systems/Week 3/W3N4 - Hash-based indexing.md",
     "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
     "year_4/advanced_database_systems/images/w8n1rangePartition.png",
-    "year_4/advanced_database_systems/images/w8n1hashPartitioning.png",
     "year_4/advanced_database_systems/images/w8n1roundRobinPartitioning.png",
     "year_4/advanced_database_systems/images/w8n1sharedNothing.png",
     "year_4/advanced_database_systems/images/w8n1sharedDisk.png",
@@ -197,12 +204,7 @@
     "year_4/compiling_techniques/Week 7/W7N2 - Register allocation.md",
     "year_4/advanced_database_systems/Week 8",
     "year_4/compiling_techniques/Week 7/W7N1 - Dataflow analysis.md",
-    "year_4/advanced_database_systems/Week 7/W7N2 - Recovery.md",
     "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
-    "year_4/advanced_database_systems/Week 7/W7N1 - Locking.md",
-    "year_4/advanced_database_systems/images/w7n1deadlockPrevention.png",
-    "year_4/advanced_database_systems/images/w7n1deadlockDetection.png",
-    "year_4/advanced_database_systems/images/w7n1conservative2pl.png",
     "year_4/advanced_database_systems/Week 7",
     "year_4/compiling_techniques/Week 7",
     "year_4/compiling_techniques/Week 6/W6N3 - Building SSA.md",
@@ -224,8 +226,6 @@
     "year_4/advanced_database_systems/Week 4/W4N4 - Processing models.md",
     "B+tree.md",
     "year_4/advanced_database_systems/Week 5",
-    "year_3/elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
-    "year_3/elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md~",
     "year_4/advanced_database_systems/Week 4",
     "year_4/compiling_techniques/Week 4",
