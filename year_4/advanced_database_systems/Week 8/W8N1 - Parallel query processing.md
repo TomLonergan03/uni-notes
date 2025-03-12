@@ -42,3 +42,35 @@ Use a hash function $h_n$ to partition data over all node, then run [[W4N2 - Agg
 Parallel hash joins can be performed by partitioning both relations on the join key, then performing a normal [[W4N3 - Joins#Hash joins|hash join]] on each node independently.
 ## Parallel sorting
 Parallel sorting is achieved by range partitioning data over machines, then perform [[W4N1 - Sorting#External sorting|external sorting]] on each machine independently. [[W4N3 - Joins#Sort-merge join|Sort-merge joins]] can be performed similarly.
+# Join scenarios
+Distributed joins require having matching tuples on the same node. Once they are there we can use standard joining techniques. We will look at equi-joins here, as more complex joins either require streaming all data to every node or other more complex algorithms outside the scope of the course.
+## Replicated small table
+If one table is very small and regularly joined against, it can be replicated at every node then the results merged at a coordinating node.
+
+E.g. for this query where `S` is small:
+```sql
+SELECT * FROM R JOIN S
+ON R.id = S.id
+```
+![[w8n1joinScenario1.png]]
+After this, $P1$ and $P2$ are concatenated to produce $R\bowtie S$.
+## Same partitions
+If both tables are partitioned on the join attribute, we can again perform the join on the local data then it is coalesced by a coordinator.
+
+E.g. for the same query where `R` and `S` are partitioned on the join key:
+![[w8n1joinScenario2.png]]
+After this, $P1$ and $P2$ are concatenated to produce $R\bowtie S$.
+## Different partition keys, one small table
+If both tables are partitioned on different keys, but one of the tables is small, it can be broadcast to all nodes, which then perform the join locally.
+
+E.g. for the same query where `S` is small:
+![[w8n1joinScenario3.png]]
+`S` is broadcast to both nodes, then the join is performed normally.
+## Different partition keys, two large tables
+If neither partition is small enough to broadcast or neither is partitioned on the join key, both of the tables are reshuffled across nodes, essentially repartitioning them on the join key.
+
+E.g. for the same query:
+![[w8n1joinScenario4.png]]
+`R` and `S` are reshuffled across both nodes, then joined as usual.
+# Query planning
+Previous optimisations are still applicable in a distributed environment, such as predicate pushdown, early projection, and finding optimal join orders, but the DBMS must also consider the network cost of moving data between nodes. The network cost is likely to have a greater impact on performance than the number of IOs performed by a given node. In addition, nodes may need to wait for data from other nodes before they can start processing data, and we want to balance work between all nodes as evenly as possible, as a parallel query will take as long as the maximum runtime of any node in the system.
