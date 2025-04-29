@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de3147f2e3bffe4b",
+        "id": "fe10291527eb6f39",
         "type": "tabs",
         "children": [
           {
-            "id": "9eab06fafd031b4d",
+            "id": "24a43f94ad0d5437",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,9 +180,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9eab06fafd031b4d",
+  "active": "24a43f94ad0d5437",
   "lastOpenFiles": [
     "year_4/advanced_database_systems/Week 10/W10N1 - Conjunctive queries.md",
+    "year_4/advanced_database_systems/Week 10/W10N2 - Conjuctive query evaluation.md",
+    "year_4/advanced_database_systems/images/w10n2lemmaGK3.png",
+    "year_4/advanced_database_systems/images/w10n23colourability.png",
     "year_4/advanced_database_systems/images/w10n1homomorphism2.png",
     "year_4/advanced_database_systems/images/w10n1homomorphism1.png",
     "year_4/advanced_database_systems/images/w10n1homorphismSets.png",
@@ -215,9 +218,6 @@
     "year_4/advanced_database_systems/images/w8n2hybridStorage.png",
     "year_4/advanced_database_systems/Week 5/W5N2 - Query optimisation.md",
     "year_4/advanced_database_systems/images/w8n1joinScenario1.png",
-    "README.md",
-    "year_4/advanced_database_systems/images/w8n1joinScenario4.png",
-    "year_4/advanced_database_systems/images/w8n1joinScenario3.png",
     "year_4/compiling_techniques/Week 8",
     "year_4/advanced_database_systems/Week 8",
     "year_4/advanced_database_systems/Week 7",

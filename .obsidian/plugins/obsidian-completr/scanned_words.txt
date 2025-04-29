@@ -1859,6 +1859,8 @@ sVH
 sJLI
 snG
 swv
+satisfiability
+satisfiable
 multiple
 matter
 many
@@ -2235,6 +2237,8 @@ mmu
 mwe
 mentioned
 mappings
+meaningful
+membership
 eventually
 execute
 each
@@ -2699,6 +2703,7 @@ egv
 eeeiu
 ePi
 eJL
+equivalently
 bounded
 by
 below
@@ -3016,6 +3021,7 @@ bAm
 bLi
 brXd
 bOO
+bijection
 above
 asymptotically
 as
@@ -3530,6 +3536,8 @@ airport
 airports
 atoms
 airlines
+applying
+atom
 no
 number
 not
@@ -4639,6 +4647,9 @@ Choosing
 CFO
 CwuKku
 Conjunctive
+Combined
+COL
+CQs
 consider
 compare
 cost
@@ -5318,6 +5329,9 @@ cXP
 cUI
 cwWg
 conjuncted
+colours
+contradictions
+containment
 larger
 lower
 likely
@@ -5641,6 +5655,7 @@ lCc
 lyi
 lmt
 lep
+lemma
 upper
 use
 useful
@@ -8506,6 +8521,8 @@ hUI
 hdZ
 hJJ
 homomorphism
+hardness
+homomorphic
 runtime
 runtimes
 run
@@ -9554,6 +9571,7 @@ Actual
 Akw
 AJL
 APuu
+Aside
 InsertSort
 Is
 In
@@ -10689,6 +10707,7 @@ qIII
 qmO
 qrw
 qO
+questions
 MergeSort
 Method
 Merge
@@ -10951,6 +10970,7 @@ MIR
 MimQEuZ
 Mkz
 Mol
+Millennium
 However
 How
 Heapify
@@ -13048,6 +13068,7 @@ PPPl
 PjuJ
 PlI
 PmG
+Prize
 Given
 Gp
 GGG

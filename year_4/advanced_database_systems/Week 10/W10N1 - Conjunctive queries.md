@@ -36,7 +36,7 @@ We can make a homomorphism $h_1=\{a\rightarrow a,b\rightarrow b,c\rightarrow c,d
 And another homomorphism $h_2=\{a\rightarrow a,b\rightarrow b,c\rightarrow c,d\rightarrow d,x\rightarrow b, y\rightarrow c\}$ which results in:
 ![[w10n1homomorphism2.png]]
 
-A **match** of a conjunctive query $Q(x_1,\dots,x_k):-body$ in a database $D$ is a homomorphism from the set of atoms $body$ to the set of atoms $D$.
+A **match** of a conjunctive query $Q(x_1,\dots,x_k):-body$ in a database $D$ is a homomorphism from the set of atoms $body$ to the set of atoms $D$. ^fc7176
 
 The **answer** to that query is the set of $k$-tuples $Q(D):=\{(h(x_1),\dots,h(x_k))\ |\text{ h is a homomorphism between }Q\text{ and }D\}$.
 
