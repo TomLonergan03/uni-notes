@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe10291527eb6f39",
+        "id": "ab8bc703d46d7d91",
         "type": "tabs",
         "children": [
           {
-            "id": "24a43f94ad0d5437",
+            "id": "0ef711f187bb9858",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relational calculus",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,10 +180,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "24a43f94ad0d5437",
+  "active": "0ef711f187bb9858",
   "lastOpenFiles": [
-    "year_4/advanced_database_systems/Week 10/W10N1 - Conjunctive queries.md",
     "year_4/advanced_database_systems/Week 10/W10N2 - Conjuctive query evaluation.md",
+    "year_4/advanced_database_systems/Week 11/W11N1 - Conjunctive query minimisation.md",
+    "year_4/advanced_database_systems/images/w11n1minimisationExample.png",
+    "year_4/advanced_database_systems/Week 7/W7N1 - Locking.md",
+    "year_4/advanced_database_systems/Week 7/W7N2 - Recovery.md",
+    "year_4/advanced_database_systems/Week 11",
+    "year_4/advanced_database_systems/Week 10/W10N1 - Conjunctive queries.md",
     "year_4/advanced_database_systems/images/w10n2lemmaGK3.png",
     "year_4/advanced_database_systems/images/w10n23colourability.png",
     "year_4/advanced_database_systems/images/w10n1homomorphism2.png",
@@ -211,13 +216,9 @@
     "year_3/operating_systems/Week 9/W9N1 - Synchronisation.md",
     "year_4/distributed_systems/Week 4/W4N1 - Coordination.md",
     "year_3/operating_systems/Week 6/W6N3 - Multiprocess page management.md",
-    "year_4/advanced_database_systems/Week 4/W4N2 - Aggregation.md",
-    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md",
     "year_4/advanced_database_systems/images/w8n2dictionaryEncoding.png",
     "year_4/advanced_database_systems/images/w8n2parquet.png",
     "year_4/advanced_database_systems/images/w8n2hybridStorage.png",
-    "year_4/advanced_database_systems/Week 5/W5N2 - Query optimisation.md",
-    "year_4/advanced_database_systems/images/w8n1joinScenario1.png",
     "year_4/compiling_techniques/Week 8",
     "year_4/advanced_database_systems/Week 8",
     "year_4/advanced_database_systems/Week 7",
@@ -226,7 +227,6 @@
     "year_4/advanced_database_systems/Week 6",
     "year_4/compiling_techniques/Week 5",
     "year_4/advanced_database_systems/Week 5",
-    "year_4/advanced_database_systems/Week 4/W4N1 - Sorting.md~",
     "Untitled.canvas"
   ]
 }

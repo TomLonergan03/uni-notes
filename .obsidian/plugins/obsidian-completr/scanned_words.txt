@@ -2239,6 +2239,7 @@ mentioned
 mappings
 meaningful
 membership
+minimisation
 eventually
 execute
 each
@@ -5332,6 +5333,7 @@ conjuncted
 colours
 contradictions
 containment
+consequence
 larger
 lower
 likely
@@ -7148,6 +7150,7 @@ pGG
 pxj
 pgF
 pyL
+proving
 various
 values
 value
@@ -8523,6 +8526,7 @@ hJJ
 homomorphism
 hardness
 homomorphic
+hypothesis
 runtime
 runtimes
 run
@@ -10971,6 +10975,7 @@ MimQEuZ
 Mkz
 Mol
 Millennium
+Minimisation
 However
 How
 Heapify

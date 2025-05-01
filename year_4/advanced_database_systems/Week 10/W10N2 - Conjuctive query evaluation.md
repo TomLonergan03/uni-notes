@@ -63,6 +63,6 @@ Given conjunctive queries $Q_1$ and $Q_2$, deciding whether there exists a query
 
 We can prove that the problem is in NP by guessing a substitution, then check that it produces exactly $Q_1$ when applied to $Q_2$. This takes polynomial time as the time to check is $O(\text{number of atoms in }Q_1+\text{number of atoms in }Q_2)$.
 
-The problem is $NP$-hard as we can reduce CQ-evaluation to a query homomorphism by converting our database into a query $Q_2$ containing all atoms in the database, and our value tuple into a query $Q_1$ containing exactly the values in the tuple, and determining whether there is a query homomorphism from $Q_2$ to $Q_1$ (maybe? not sure).
+The problem is $NP$-hard as we can reduce CQ-evaluation to a query homomorphism by converting our database into a query $Q_2$ containing all atoms in the database, and our value tuple into a query $Q_1$ containing exactly the values in the tuple, and determining whether there is a query homomorphism from $Q_2$ to $Q_1$ (maybe? not sure on this proof attempt).
 
 As a result, deciding if a query homomorphism from $Q_2$ to $Q_1$ exists is NP-complete, and as a consequence of that, CQ equivalence and containment are also both NP-complete problems.
