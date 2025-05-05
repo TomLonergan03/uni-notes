@@ -439,6 +439,8 @@ iiiikkkkk
 iaI
 iYg
 iVN
+imt
+induces
 or
 of
 operations
@@ -756,6 +758,8 @@ occupied
 omQI
 okn
 oEa
+oimkiUp
+oooW
 there
 that
 than
@@ -1201,6 +1205,9 @@ tweaks
 tYY
 trrz
 tzPP
+tractable
+tttXX
+treewidth
 some
 smaller
 so
@@ -1861,6 +1868,8 @@ snG
 swv
 satisfiability
 satisfiable
+smmm
+srrJII
 multiple
 matter
 many
@@ -2240,6 +2249,12 @@ mappings
 meaningful
 membership
 minimisation
+mcWNE
+mmB
+mRZ
+mjj
+mbb
+mLL
 eventually
 execute
 each
@@ -2705,6 +2720,8 @@ eeeiu
 ePi
 eJL
 equivalently
+esM
+ecMiI
 bounded
 by
 below
@@ -3023,6 +3040,9 @@ bLi
 brXd
 bOO
 bijection
+bFN
+bZZZ
+bqX
 above
 asymptotically
 as
@@ -3539,6 +3559,8 @@ atoms
 airlines
 applying
 atom
+aCJJJTT
+acyclicity
 no
 number
 not
@@ -4069,6 +4091,9 @@ wzld
 wzjvfA
 wpi
 wuuuww
+wTY
+wnZ
+wrr
 Defined
 Different
 Datastructures
@@ -4338,6 +4363,11 @@ Device
 Demand
 Deterministic
 DAf
+Dss
+DOOOQQ
+Dtdh
+Dbdb
+DQTcc
 Can
 CPU
 Create
@@ -4651,6 +4681,7 @@ Conjunctive
 Combined
 COL
 CQs
+CNV
 consider
 compare
 cost
@@ -5334,6 +5365,10 @@ colours
 contradictions
 containment
 consequence
+cTeo
+ckZ
+cGJJ
+careful
 larger
 lower
 likely
@@ -5946,6 +5981,9 @@ uxhR
 uanr
 utp
 uvtTWUJ
+uzy
+ultl
+ukW
 for
 focus
 from
@@ -6316,6 +6354,7 @@ fLi
 fQB
 fKeI
 fjR
+faa
 There
 Typically
 The
@@ -7151,6 +7190,9 @@ pxj
 pgF
 pyL
 proving
+pTH
+pxl
+pvvNII
 various
 values
 value
@@ -7402,6 +7444,7 @@ vjbxpl
 vUku
 vmEEEzf
 vuQ
+vtO
 kinds
 know
 keys
@@ -7587,6 +7630,8 @@ kWR
 kWmm
 kOGC
 klbl
+kYf
+kWLL
 We
 Worst
 When
@@ -7776,6 +7821,9 @@ WA
 WoZ
 WiyB
 WBB
+Wmpp
+Wsrr
+Wlm
 definition
 different
 disk
@@ -8527,6 +8575,11 @@ homomorphism
 hardness
 homomorphic
 hypothesis
+hypergraph
+hyperedge
+hypertree
+hypergraphs
+hyperedges
 runtime
 runtimes
 run
@@ -9057,6 +9110,8 @@ rku
 rqrdP
 rqqq
 respects
+rER
+rtq
 Even
 Example
 Extensible
@@ -9320,6 +9375,10 @@ EMZ
 EQwww
 Eit
 EITbJw
+EyK
+EQTgg
+Euww
+Eliminate
 An
 Asymptotic
 Any
@@ -9576,6 +9635,11 @@ Akw
 AJL
 APuu
 Aside
+APPT
+ADi
+Akzeu
+Acyclicity
+Attach
 InsertSort
 Is
 In
@@ -9850,6 +9914,7 @@ IDATO
 Ipp
 IDATS
 InZ
+IIIQQQCC
 Yes
 YY
 YYY
@@ -10017,6 +10082,11 @@ YYiZ
 YZp
 YAA
 YuE
+YkE
+YWW
+YYYaa
+Yannakaki
+YES
 given
 graph
 general
@@ -10265,6 +10335,10 @@ gRR
 gDkd
 gggOOOGG
 gJK
+generalisation
+gXPp
+gkk
+gOuu
 Best
 Basically
 BP
@@ -10525,6 +10599,7 @@ Briggs
 BSON
 BigTable
 Belady
+Bcc
 quantitative
 queues
 queue
@@ -10976,6 +11051,7 @@ Mkz
 Mol
 Millennium
 Minimisation
+MGEE
 However
 How
 Heapify
@@ -11193,6 +11269,8 @@ Hhzt
 HUjv
 HotF
 Homomorphism
+HoW
+HrT
 Rigorous
 Rigorously
 Recursion
@@ -11497,6 +11575,9 @@ Rjb
 Rpp
 RYQW
 RSuyeQ
+RmqM
+Ricc
+Return
 First
 Fixed
 Fast
@@ -11741,6 +11822,8 @@ FJr
 FQF
 FoRm
 FcQ
+FFMZ
+FFX
 Lists
 Linked
 Likewise
@@ -11996,6 +12079,10 @@ LCV
 LpcgV
 LfpppRR
 London
+LJf
+LVRR
+LQQQjjj
+LJJJNNvss
 Stacks
 Sometimes
 So
@@ -12333,6 +12420,8 @@ SBQt
 Sbp
 SZP
 SlgW
+SCuO
+SvY
 Notes
 NG
 NK
@@ -12548,6 +12637,7 @@ Neo
 Neptune
 NEEEeeeSS
 Nnn
+Nptb
 Obsidian
 OOO
 OO
@@ -13074,6 +13164,12 @@ PjuJ
 PlI
 PmG
 Prize
+PTUU
+PrE
+Pxzz
+Peeeaaayy
+PkD
+PTIME
 Given
 Gp
 GGG
@@ -13251,6 +13347,7 @@ GBs
 Good
 GGb
 Glasgow
+GYO
 just
 jgc
 jkk
@@ -13436,6 +13533,10 @@ jyu
 joined
 jJrF
 jjw
+jRP
+jso
+jipX
+jhB
 Using
 UEGGG
 UF
@@ -13662,6 +13763,7 @@ Uhljbl
 UVU
 UWO
 UYX
+UDr
 QuickSort
 QeD
 Qq
@@ -13834,6 +13936,8 @@ QSS
 QWV
 QPN
 QVqAf
+QUj
+QQQnnn
 you
 ys
 yyy
@@ -14018,6 +14122,7 @@ yEE
 yWcJ
 yybl
 yFar
+yii
 KKKt
 KO
 Kw
@@ -14194,6 +14299,9 @@ KSGK
 KBU
 KtD
 KDvB
+Kpx
+KKKy
+KsS
 VVVl
 VN
 VSS
@@ -14401,6 +14509,10 @@ VPx
 VQm
 VYnfbB
 VKa
+VuW
+VVVVAAAww
+VYYY
+VOd
 ZR
 Zx
 ZD
@@ -14591,6 +14703,8 @@ ZaP
 ZGFF
 ZRR
 Zmce
+Zmcc
+ZQUV
 Ji
 JLL
 Jw
@@ -14806,6 +14920,7 @@ Job
 JIIY
 JvW
 JMM
+JMy
 XO
 XYYI
 XIh
@@ -14972,6 +15087,7 @@ XCm
 XWs
 Xrrr
 XRUgJ
+XaQ
 zo
 zjR
 zx
@@ -15157,6 +15273,11 @@ zEP
 zIQ
 zlq
 zjj
+zGO
+zwt
+zzB
+ziLbr
+zNA
 xxx
 xe
 xfs
@@ -15332,6 +15453,9 @@ xpD
 xBW
 xyzV
 xsm
+xDN
+xGa
+xSS
 ÖQ
 ÖJ
 üh
