@@ -61,7 +61,7 @@ On pass 2, we find the best 2-relation plans by looking at each join order:
 then determine the best candidate:
 ![[w6n2pass2best.png]]
 
-On pass 3, we enumerate the best 3 relation paths using the best 2-relation palns and one other relation:
+On pass 3, we enumerate the best 3 relation paths using the best 2-relation plans and one other relation:
 ![[w6n2pass3candidates.png]]
 and can select the overall best plan:
 ![[w6n2pass3best.png]]

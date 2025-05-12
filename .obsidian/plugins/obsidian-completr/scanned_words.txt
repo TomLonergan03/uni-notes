@@ -441,6 +441,8 @@ iYg
 iVN
 imt
 induces
+isomorphic
+inquiries
 or
 of
 operations
@@ -3561,6 +3563,7 @@ applying
 atom
 aCJJJTT
 acyclicity
+ack
 no
 number
 not
@@ -3809,6 +3812,7 @@ nearest
 nearby
 nnnWW
 nvv
+naming
 what
 ways
 we
@@ -4682,6 +4686,7 @@ Combined
 COL
 CQs
 CNV
+Commit
 consider
 compare
 cost
@@ -5369,6 +5374,7 @@ cTeo
 ckZ
 cGJJ
 careful
+continues
 larger
 lower
 likely
@@ -5984,6 +5990,8 @@ uvtTWUJ
 uzy
 ultl
 ukW
+unanimity
+unilaterally
 for
 focus
 from
@@ -6355,6 +6363,9 @@ fQB
 fKeI
 fjR
 faa
+filename
+flush
+flushes
 There
 Typically
 The
@@ -7193,6 +7204,7 @@ proving
 pTH
 pxl
 pvvNII
+prepared
 various
 values
 value
@@ -7445,6 +7457,8 @@ vUku
 vmEEEzf
 vuQ
 vtO
+voting
+voted
 kinds
 know
 keys
@@ -8278,6 +8292,8 @@ dfe
 dYR
 dISM
 distinguished
+disconnected
+downtimes
 how
 have
 halves
@@ -8580,6 +8596,8 @@ hyperedge
 hypertree
 hypergraphs
 hyperedges
+hands
+handed
 runtime
 runtimes
 run
@@ -9112,6 +9130,7 @@ rqqq
 respects
 rER
 rtq
+rollback
 Even
 Example
 Extensible
@@ -13170,6 +13189,7 @@ Pxzz
 Peeeaaayy
 PkD
 PTIME
+Participants
 Given
 Gp
 GGG
@@ -14513,6 +14533,7 @@ VuW
 VVVVAAAww
 VYYY
 VOd
+Voting
 ZR
 Zx
 ZD

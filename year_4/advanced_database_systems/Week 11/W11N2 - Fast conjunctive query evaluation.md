@@ -32,7 +32,7 @@ This means this hypergraph is cyclic:
 ![[w11n2cyclicHypergraph.png]]
 while this one is no (as we have one hyperedge which is then connected to all other hyperedges):
 ![[w11n2acyclicHypergraph.png]]
-# Acyclicity
+# GYO-reduction
 Given a conjunctive query $Q$, we want to determine whether $Q$ is acyclic. This is possible using a simple algorithm, **GYO-reduction**. This works by:
 1. Eliminate all nodes that occur in at most one hyperedge
 2. Eliminate all hyperedges that are empty or contained within another hyperedge

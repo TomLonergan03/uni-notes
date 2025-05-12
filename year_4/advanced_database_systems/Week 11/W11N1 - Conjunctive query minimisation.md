@@ -5,7 +5,7 @@ A conjunctive query $Q_1$ is **minimal** if there is no CQ $Q_2$ such that:
 
 The task of **CQ minimisation** is, given a CQ $Q$, compute a minimal query that is equivalent to $Q$. This is desired as each atom in a CQ represents a [[W4N3 - Joins|join]], and fewer joins will almost always result in a faster executing query.
 # Minimisation by deletion
-Using [[W10N1 - Conjunctive queries#Homomorphism|homomorphism theory]], we can prove (but will not do so here) that if we have a CQ $Q_1(x_1,\dots,x_k)\text{ :- }body_1$, if $Q_1$ is equivalent to some CQ $Q_2(x_1,\dots,x_k)\text{ :- }body_2$ where $|body_2|<|body_1|$, then $Q_1$ is equivalent to some query $Q_3(x_1,\dots,x_k)\text{ :- }body_3$ such that $body_3\subseteq body_1$.
+Using [[W10N1 - Conjunctive queries#Homomorphism|homomorphism theory]], we can prove (but will not do so here) that if we have a CQ $Q_1(x_1,\dots,x_k)\text{ :- }body_1$, if $Q_1$ is equivalent to some CQ $Q_2(x_1,\dots,x_k)\text{ :- }body_2$ where $|body_2|<|body_1|$, then $Q_1$ is equivalent to some query $Q_3(x_1,\dots,x_k)\text{ :- }body_3$ such that $body_3\subsetneq body_1$.
 
 This means that we can minimise a CQ by simply deleting redundant atoms from its body, without having to search for any other rewriting of the query.
 
