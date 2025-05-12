@@ -5,7 +5,7 @@ An SR latch can be "set", where it outputs a high signal, or "reset", where it o
 ![[w5n1srLatchEnable.png]]
 By adding an enable signal which is NAND with both $S$ and $R$ signals, we can make an SR latch that only changes state when the enable signal is enabled.
 # D-latch
-![[w5n1dLatch.png]]
+![[year_4/computer_architecture/images/w5n1dLatch.png]]
 When $En=1$, the latch is "open" and $Q$ follows $D$. When $En=0$, the latch is "closed" and $Q$ retains its current value.
 # D-type positive-edge-triggered flip-flop
 ![[w5n1posedgeFlipFlop.png]]

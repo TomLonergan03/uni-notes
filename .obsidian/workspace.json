@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
+                "file": "year_2/introduction_to_algorithms_and_datastructures/Week 1 - Efficiency of algorithms/W1N2 - Inefficient vs efficient algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W6N3 - Transactions"
+              "title": "W1N2 - Inefficient vs efficient algorithms"
             }
           }
         ]
@@ -186,6 +186,11 @@
   },
   "active": "0ef711f187bb9858",
   "lastOpenFiles": [
+    "year_2/introduction_to_algorithms_and_datastructures/Week 1 - Efficiency of algorithms/W1N1 - What are algorithms and data structures?.md",
+    "year_2/digital_system_design_2/Images/w1And.png",
+    "year_2/digital_system_design_2/Week 1 - Digital signals and boolean algebra/W1N1 - Introduction to digital signals.md",
+    "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
+    "year_2/digital_system_design_2/README.md",
     "year_4/advanced_database_systems/Week 7/W7N2 - Recovery.md",
     "year_4/advanced_database_systems/Week 7/W7N3 - Distributed transactions.md",
     "year_4/advanced_database_systems/Week 8/W8N2 - Storage models.md",
@@ -194,7 +199,6 @@
     "year_4/advanced_database_systems/Week 10/W10N2 - Conjuctive query evaluation.md",
     "year_4/advanced_database_systems/Week 11/W11N2 - Fast conjunctive query evaluation.md",
     "year_4/advanced_database_systems/Week 11/W11N1 - Conjunctive query minimisation.md",
-    "year_4/advanced_database_systems/Week 6/W6N3 - Transactions.md",
     "year_4/advanced_database_systems/Week 6/W6N2 - Query search.md",
     "year_4/advanced_database_systems/Cheatsheet/sections/cost_equations.tex~",
     "year_4/advanced_database_systems/Week 6/W6N1 - Query costing.md",
@@ -211,9 +215,6 @@
     "year_4/advanced_database_systems/Week 3/W3N1 - Comparing file organisations.md",
     "year_4/advanced_database_systems/Week 2/W2N5 - Files, pages, and records.md",
     "year_4/advanced_database_systems/Week 2/W2N4 - Buffer management.md",
-    "year_4/advanced_database_systems/Week 2/W2N3 - Database storage.md",
-    "year_4/advanced_database_systems/Week 2/W2N2 - Disk usage.md",
-    "year_4/advanced_database_systems/Week 1/W1N2 - SQL.md",
     "year_4/advanced_database_systems/Cheatsheet/adbs.aux",
     "year_4/advanced_database_systems/Cheatsheet/adbs.log",
     "year_4/advanced_database_systems/Cheatsheet/Makefile~",
@@ -231,7 +232,6 @@
     "year_4/advanced_database_systems/images/w11n2joinTreeConnectedSubtree.png",
     "year_4/advanced_database_systems/images/w11n2joinTree.png",
     "year_4/advanced_database_systems/images/w11n2queryHypergraph.png",
-    "year_4/advanced_database_systems/images/w11n2queryGraph.png",
     "Untitled.canvas"
   ]
 }

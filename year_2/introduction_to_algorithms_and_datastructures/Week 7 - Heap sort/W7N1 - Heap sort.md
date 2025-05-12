@@ -1,0 +1,1 @@
+We can sort an array by constructing a [[W6N1 - Heap datastructure|max heap]] then extracting the top element until the heap is empty. This occurs in $\Theta(n\text{ lg}(n))$ as we have $n$ `extractMax()`s which each run in $O(\text{ lg}(n))$ time and $O(n)$ to construct the heap (which is therefore negligible).

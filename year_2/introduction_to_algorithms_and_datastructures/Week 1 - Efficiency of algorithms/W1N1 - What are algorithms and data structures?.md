@@ -1,0 +1,3 @@
+An <b>algorithm</b> is a sequence of operations that can solve a problem. There are usually many different algorithms that could be applied to a program, however some will be more or less [efficient](W1N2%20-%20Inefficient%20vs%20efficient%20algorithms.md). When we write a program to solve a problem, we are translating an algorithm into machine understandable code.
+
+A <b>data structure</b> is a way of storing or representing data that makes it easy to perform specific algorithms on it. Any given data structure is not necessarily the optimal way to store some data for all algorithms, however it will make some algorithms far easier or faster.
